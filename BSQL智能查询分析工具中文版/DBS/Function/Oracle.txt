@@ -1,0 +1,8 @@
+CREATE OR REPLACE  FUNCTION %s (
+ <argument name> <in out nocopy> <argument datatype> <default value>
+)
+return <return_datatype>
+as
+begin
+ <function body>
+end;

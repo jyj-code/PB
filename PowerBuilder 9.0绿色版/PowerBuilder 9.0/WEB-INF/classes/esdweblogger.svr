@@ -1,0 +1,122 @@
+#---------------------------------------------------------------------------#
+#                              Logger setup
+#
+# Logging setup consists of two basic parts. The first is configuring the 
+# logger(s) to output the correct types of messages. Messages are ordered 
+# in a heirarchical fashion as follows:
+#            OFF > FATAL > ERROR > WARN > INFO > DEBUG > TRACE
+#                <-- less logging       more logging --> 
+#
+# The other element in a logger setup property is a list of appenders 
+# (destinations) where the log messages will be sent. The default appenders
+# created by this file include:
+#  rfile - Logs default messages to a RollingFileAppender  
+#  rconsole - Logs default messages to a ConsoleAppender (the screen)
+#  tfile - Logs debug/trace messages to a RollingFileAppender  
+#  tconsole - Logs debug/trace messages to a ConsoleAppender
+# To change the file destination of either the default or debug/trace 
+# logging see the "Appender and Layout Definitions" section below.
+#---------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------#
+#              INFO,WARN,ERROR & FATAL message logger setup
+#---------------------------------------------------------------------------#
+# Setup default logger with the default appenders. To change the level 
+# of logging provided by the default logger change the OFF in the
+# following line to any of FATAL, ERROR, WARN, INFO, DEBUG or 
+#  TRACE#com.sybase.esdweb.util.log.TraceLevel
+# NOTE: If the Level for the default logger is set to TRACE or DEBUG 
+# the default logger will be used to print trace/debug statements 
+
+# log to both file and console
+log4j.logger.com.sybase.esdweb=OFF,rconsole,rfile
+# log to console only
+# log4j.logger.com.sybase.esdweb=WARN,rconsole
+# log to file only
+# log4j.logger.com.sybase.esdweb=WARN,rfile
+
+
+#---------------------------------------------------------------------------#
+#                        Trace/debug logger setup
+#---------------------------------------------------------------------------#
+# The default condition for trace/debug is OFF. 
+# Debug and tracing messages are intended for use by Sybase Tech Support
+# and engineering and should not be used unless instructed to do so by a
+# tech support engineer since the debug and trace logging has significant
+# performance impacts.
+
+# to remove logging to the screen delete the ",tconsole" text from the end 
+# of the appropriate line 
+log4j.logger.com.sybase.esdweb.trace=OFF,tfile,tconsole
+#log4j.logger.com.sybase.esdweb.trace=DEBUG,tfile,tconsole
+#log4j.logger.com.sybase.esdweb.trace=TRACE#com.sybase.esdweb.util.log.TraceLevel,tfile,tconsole
+
+
+#---------------------------------------------------------------------------#
+#                     Appender and Layout Definitions
+#
+# Appender and layout definitions determine the format of the messages
+# being output by the loggers and their destinations. Unless instructed
+# to change them by Sybase Technical Support do not change the patterns
+# defined by the ConversionPattern properties below. 
+# 
+# If you wish to route logging messages to a different file destination
+# the following properties should be changed:
+# - For the default logging:
+#    log4j.appender.rfile.File="new default destination file..."
+# - For the debug/trace logging:
+#    log4j.appender.tfile.File="new debug/trace destination file..."
+# Destination files may be qualified file names. If file names are not 
+# fully qualified the base location of the file path varies between 
+# different operating systems.
+#---------------------------------------------------------------------------#
+#---------------------------------------------------------------------------#
+#          INFO,WARN,ERROR & FATAL message appenders and layouts
+#---------------------------------------------------------------------------#
+### Console appender
+log4j.appender.rconsole=org.apache.log4j.ConsoleAppender
+log4j.appender.rconsole.layout=com.sybase.esdweb.util.log.ExtendedPatternLayout
+log4j.appender.rconsole.layout.ConversionPattern=%-5p [%t] %d{DATE}: %m%n
+
+
+### Rolling file appender
+### Change logging file destination here...
+log4j.appender.rfile.File=esdweb.log
+
+log4j.appender.rfile=org.apache.log4j.RollingFileAppender
+log4j.appender.rfile.MaxFileSize=1MB
+log4j.appender.rfile.MaxBackupIndex=2
+log4j.appender.rfile.layout=com.sybase.esdweb.util.log.ExtendedPatternLayout
+log4j.appender.rfile.layout.ConversionPattern=%-5p [%t] %d{DATE}: %m%n
+
+
+#---------------------------------------------------------------------------#
+#                   Trace/debug appenders and layouts
+#---------------------------------------------------------------------------#
+### Console appender 
+log4j.appender.tconsole=org.apache.log4j.ConsoleAppender
+log4j.appender.tconsole.layout=com.sybase.esdweb.util.log.ExtendedPatternLayout
+log4j.appender.tconsole.layout.ConversionPattern=%-5p [%t] (%F:%L) %M: %m%n
+#
+# ## Rolling file appender
+# NOTE: By default these go into the same rolling file defined by the default 
+#       rfile appender.
+#
+### Change debug/trace file destination here...
+log4j.appender.tfile.File=esdweb.log
+
+log4j.appender.tfile=org.apache.log4j.RollingFileAppender
+log4j.appender.tfile.MaxFileSize=1MB
+log4j.appender.tfile.MaxBackupIndex=2
+log4j.appender.tfile.layout=com.sybase.esdweb.util.log.ExtendedPatternLayout
+log4j.appender.tfile.layout.ConversionPattern=%-5p [%t] (%F:%L) %M: %m%n
+
+
+#---------------------------------------------------------------------------#
+# Internal logging settings. Please do NOT change these settings without 
+# instructions to do so from Sybase Technical Support.
+#---------------------------------------------------------------------------#
+# Always set additivity off so we don't inherit ancestor logger settings
+log4j.additivity.com.sybase.esdweb=false
+log4j.additivity.com.sybase.esdweb.trace=false
+

@@ -1,0 +1,13 @@
+#Thu Mar 21 10:07:19 MST 2002
+#Tip for setting paths on Windows: escape the \, i.e., c:\\Sybase\\...
+#Examples for each property
+#soap.client.proxy.user.encoding=c:\\Sybase\\EAServer\\Webservices\\work
+#soap.client.proxy.wsdl.implementation=c:\\Sybase\\EAServer\\Webservices\\work\\wsdl
+#soap.client.proxy.wsdl.interface=c:\\Sybase\\EAServer\\Webservices\\work\\wsdl
+#soap.cacerts.filename=C:\\jdk1.3.1\\jre\\lib\\security\\samplecacerts
+javax.xml.parsers.DocumentBuilderFactory=org.apache.xerces.jaxp.DocumentBuilderFactoryImpl
+soap.client.proxy.user.encoding=
+soap.client.proxy.wsdl.implementation=
+soap.client.proxy.wsdl.interface=
+soap.cacerts.filename=
+#javax.xml.parsers.DocumentBuilderFactory=

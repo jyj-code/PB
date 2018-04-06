@@ -1,0 +1,2090 @@
+REGEDIT4
+[HKEY_CLASSES_ROOT\DataWindow.HTMLGenerator90]
+@= "DataWindow::HTMLGenerator90 Jaguar Component"
+[HKEY_CLASSES_ROOT\DataWindow.HTMLGenerator90\CLSID]
+@= "{cc696fb4-07a2-4d4e-bf58-3be023b4230e}"
+[HKEY_CLASSES_ROOT\DataWindow.HTMLGenerator90\CurVer]
+@= "DataWindow.HTMLGenerator90.4"
+[HKEY_CLASSES_ROOT\DataWindow.HTMLGenerator90.4]
+@= "DataWindow::HTMLGenerator90 Jaguar Component"
+[HKEY_CLASSES_ROOT\DataWindow.HTMLGenerator90.4\CLSID]
+@= "{cc696fb4-07a2-4d4e-bf58-3be023b4230e}"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}]
+@= "DataWindow::HTMLGenerator90 Jaguar Component"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\ProgID]
+@= "DataWindow.HTMLGenerator90.4"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\VersionIndependentProgID]
+@= "DataWindow.HTMLGenerator90"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Version]
+@= "4.0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\InProcServer32]
+@= "jagproxy.dll"
+"ThreadingModel" = "Apartment"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\TypeLib]
+@= "{b795971c-1347-11d5-a1f4-00c04f60fa75}"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Interface]
+@= "{f04b8220-8d86-4d14-a066-35a3c90d41a9}"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\DefaultIcon]
+@= "\\jagproxy.bmp"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Programmable]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\IsJaguarComponent]
+@= "TRUE"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\JaguarVersion]
+@= "4.0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\JaguarPackageName]
+@= "DataWindow"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\JaguarComponentName]
+@= "HTMLGenerator90"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\Initialize]
+@= "Initialize"
+"HasResult" = "0"
+"ReturnType" = "void"
+"NumberOfArgs" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\4]
+@= "Initialize"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetRecordSet]
+@= "GetRecordSet"
+"HasResult" = "2"
+"ReturnType" = "resultsets"
+"NumberOfArgs" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\5]
+@= "GetRecordSet"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\IsJaguarObject]
+@= "IsJaguarObject"
+"HasResult" = "0"
+"ReturnType" = "boolean"
+"NumberOfArgs" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\6]
+@= "IsJaguarObject"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\100]
+@= "Create"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\Create]
+@= "Create"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\Create\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\Create\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\101]
+@= "Modify"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\Modify]
+@= "Modify"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\Modify\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\Modify\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\102]
+@= "OneTrip"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\OneTrip]
+@= "OneTrip"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "6"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\OneTrip\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\OneTrip\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\OneTrip\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\OneTrip\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\OneTrip\Parameters\Parameter3]
+@= "Parameter3"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\OneTrip\Parameters\Parameter4]
+@= "Parameter4"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\OneTrip\Parameters\Parameter5]
+@= "Parameter5"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\103]
+@= "Describe"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\Describe]
+@= "Describe"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\Describe\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\Describe\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\104]
+@= "Generate"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\Generate]
+@= "Generate"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "0"
+"NumberOfExceps" = "0"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\105]
+@= "SetAction"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetAction]
+@= "SetAction"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "2"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetAction\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetAction\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetAction\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\106]
+@= "Retrieve"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\Retrieve]
+@= "Retrieve"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "0"
+"NumberOfExceps" = "0"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\107]
+@= "SetTrans"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetTrans]
+@= "SetTrans"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "7"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetTrans\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetTrans\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetTrans\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetTrans\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetTrans\Parameters\Parameter3]
+@= "Parameter3"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetTrans\Parameters\Parameter4]
+@= "Parameter4"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetTrans\Parameters\Parameter5]
+@= "Parameter5"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetTrans\Parameters\Parameter6]
+@= "Parameter6"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\108]
+@= "Update"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\Update]
+@= "Update"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "0"
+"NumberOfExceps" = "0"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\109]
+@= "SetWeight"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetWeight]
+@= "SetWeight"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "5"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetWeight\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetWeight\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "boolean"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetWeight\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "boolean"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetWeight\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "boolean"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetWeight\Parameters\Parameter3]
+@= "Parameter3"
+"ParamMode" = "1"
+"ParamType" = "boolean"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetWeight\Parameters\Parameter4]
+@= "Parameter4"
+"ParamMode" = "1"
+"ParamType" = "boolean"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\110]
+@= "SetBrowser"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetBrowser]
+@= "SetBrowser"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetBrowser\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetBrowser\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\111]
+@= "SetHTMLObjectName"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetHTMLObjectName]
+@= "SetHTMLObjectName"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetHTMLObjectName\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetHTMLObjectName\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\112]
+@= "GetLastErrorString"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetLastErrorString]
+@= "GetLastErrorString"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "0"
+"NumberOfExceps" = "0"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\113]
+@= "GetLastError"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetLastError]
+@= "GetLastError"
+"HasResult" = "0"
+"ReturnType" = "integer"
+"NumberOfArgs" = "0"
+"NumberOfExceps" = "0"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\114]
+@= "SetDWObject"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetDWObject]
+@= "SetDWObject"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "2"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetDWObject\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetDWObject\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetDWObject\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\115]
+@= "SetSelfLink"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetSelfLink]
+@= "SetSelfLink"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "2"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetSelfLink\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetSelfLink\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetSelfLink\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\116]
+@= "SetColumnLink"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetColumnLink]
+@= "SetColumnLink"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "4"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetColumnLink\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetColumnLink\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetColumnLink\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetColumnLink\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetColumnLink\Parameters\Parameter3]
+@= "Parameter3"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\117]
+@= "OneTripEx"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\OneTripEx]
+@= "OneTripEx"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "7"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\OneTripEx\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\OneTripEx\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\OneTripEx\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\OneTripEx\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\OneTripEx\Parameters\Parameter3]
+@= "Parameter3"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\OneTripEx\Parameters\Parameter4]
+@= "Parameter4"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\OneTripEx\Parameters\Parameter5]
+@= "Parameter5"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\OneTripEx\Parameters\Parameter6]
+@= "Parameter6"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\118]
+@= "RetrieveEx"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\RetrieveEx]
+@= "RetrieveEx"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\RetrieveEx\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\RetrieveEx\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\119]
+@= "SetPageSize"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetPageSize]
+@= "SetPageSize"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetPageSize\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetPageSize\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\120]
+@= "SetServerSideState"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetServerSideState]
+@= "SetServerSideState"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetServerSideState\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetServerSideState\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "boolean"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\121]
+@= "SetServerServiceClasses"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetServerServiceClasses]
+@= "SetServerServiceClasses"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetServerServiceClasses\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetServerServiceClasses\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\122]
+@= "ClearValues"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\ClearValues]
+@= "ClearValues"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\ClearValues\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\ClearValues\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\123]
+@= "ClearValuesByColNum"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\ClearValuesByColNum]
+@= "ClearValuesByColNum"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\ClearValuesByColNum\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\ClearValuesByColNum\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "short"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\124]
+@= "DeletedCount"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\DeletedCount]
+@= "DeletedCount"
+"HasResult" = "0"
+"ReturnType" = "integer"
+"NumberOfArgs" = "0"
+"NumberOfExceps" = "0"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\125]
+@= "DeleteRow"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\DeleteRow]
+@= "DeleteRow"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\DeleteRow\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\DeleteRow\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\126]
+@= "Filter"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\Filter]
+@= "Filter"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "0"
+"NumberOfExceps" = "0"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\127]
+@= "FilteredCount"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\FilteredCount]
+@= "FilteredCount"
+"HasResult" = "0"
+"ReturnType" = "integer"
+"NumberOfArgs" = "0"
+"NumberOfExceps" = "0"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\128]
+@= "Find"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\Find]
+@= "Find"
+"HasResult" = "0"
+"ReturnType" = "integer"
+"NumberOfArgs" = "3"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\Find\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\Find\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\Find\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\Find\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "integer"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\129]
+@= "FindGroupChange"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\FindGroupChange]
+@= "FindGroupChange"
+"HasResult" = "0"
+"ReturnType" = "integer"
+"NumberOfArgs" = "2"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\FindGroupChange\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\FindGroupChange\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\FindGroupChange\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\130]
+@= "GetColumn"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetColumn]
+@= "GetColumn"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "0"
+"NumberOfExceps" = "0"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\131]
+@= "GetColumnName"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetColumnName]
+@= "GetColumnName"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "0"
+"NumberOfExceps" = "0"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\132]
+@= "GetFormat"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetFormat]
+@= "GetFormat"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetFormat\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetFormat\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\133]
+@= "GetFormatByColNum"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetFormatByColNum]
+@= "GetFormatByColNum"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetFormatByColNum\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetFormatByColNum\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "short"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\134]
+@= "GetItemDate"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDate]
+@= "GetItemDate"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "2"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDate\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDate\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDate\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\135]
+@= "GetItemDateEx"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateEx]
+@= "GetItemDateEx"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "4"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateEx\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateEx\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateEx\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateEx\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateEx\Parameters\Parameter3]
+@= "Parameter3"
+"ParamMode" = "1"
+"ParamType" = "boolean"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\136]
+@= "GetItemDateByColNum"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateByColNum]
+@= "GetItemDateByColNum"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "2"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateByColNum\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateByColNum\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateByColNum\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\137]
+@= "GetItemDateByColNumEx"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateByColNumEx]
+@= "GetItemDateByColNumEx"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "4"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateByColNumEx\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateByColNumEx\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateByColNumEx\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateByColNumEx\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateByColNumEx\Parameters\Parameter3]
+@= "Parameter3"
+"ParamMode" = "1"
+"ParamType" = "boolean"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\138]
+@= "GetItemDateTime"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateTime]
+@= "GetItemDateTime"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "2"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateTime\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateTime\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateTime\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\139]
+@= "GetItemDateTimeEx"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateTimeEx]
+@= "GetItemDateTimeEx"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "4"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateTimeEx\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateTimeEx\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateTimeEx\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateTimeEx\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateTimeEx\Parameters\Parameter3]
+@= "Parameter3"
+"ParamMode" = "1"
+"ParamType" = "boolean"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\140]
+@= "GetItemDateTimeByColNum"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateTimeByColNum]
+@= "GetItemDateTimeByColNum"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "2"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateTimeByColNum\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateTimeByColNum\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateTimeByColNum\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\141]
+@= "GetItemDateTimeByColNumEx"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateTimeByColNumEx]
+@= "GetItemDateTimeByColNumEx"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "4"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateTimeByColNumEx\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateTimeByColNumEx\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateTimeByColNumEx\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateTimeByColNumEx\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemDateTimeByColNumEx\Parameters\Parameter3]
+@= "Parameter3"
+"ParamMode" = "1"
+"ParamType" = "boolean"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\142]
+@= "GetItemFormattedString"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemFormattedString]
+@= "GetItemFormattedString"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "2"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemFormattedString\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemFormattedString\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemFormattedString\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\143]
+@= "GetItemFormattedStringEx"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemFormattedStringEx]
+@= "GetItemFormattedStringEx"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "4"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemFormattedStringEx\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemFormattedStringEx\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemFormattedStringEx\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemFormattedStringEx\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemFormattedStringEx\Parameters\Parameter3]
+@= "Parameter3"
+"ParamMode" = "1"
+"ParamType" = "boolean"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\144]
+@= "GetItemFormattedStringByColNum"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemFormattedStringByColNum]
+@= "GetItemFormattedStringByColNum"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "2"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemFormattedStringByColNum\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemFormattedStringByColNum\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemFormattedStringByColNum\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\145]
+@= "GetItemFormattedStringByColNumEx"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemFormattedStringByColNumEx]
+@= "GetItemFormattedStringByColNumEx"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "4"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemFormattedStringByColNumEx\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemFormattedStringByColNumEx\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemFormattedStringByColNumEx\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemFormattedStringByColNumEx\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemFormattedStringByColNumEx\Parameters\Parameter3]
+@= "Parameter3"
+"ParamMode" = "1"
+"ParamType" = "boolean"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\146]
+@= "GetItemNumber"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemNumber]
+@= "GetItemNumber"
+"HasResult" = "0"
+"ReturnType" = "double"
+"NumberOfArgs" = "2"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemNumber\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemNumber\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemNumber\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\147]
+@= "GetItemNumberEx"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemNumberEx]
+@= "GetItemNumberEx"
+"HasResult" = "0"
+"ReturnType" = "double"
+"NumberOfArgs" = "4"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemNumberEx\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemNumberEx\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemNumberEx\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemNumberEx\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemNumberEx\Parameters\Parameter3]
+@= "Parameter3"
+"ParamMode" = "1"
+"ParamType" = "boolean"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\148]
+@= "GetItemNumberByColNum"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemNumberByColNum]
+@= "GetItemNumberByColNum"
+"HasResult" = "0"
+"ReturnType" = "double"
+"NumberOfArgs" = "2"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemNumberByColNum\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemNumberByColNum\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemNumberByColNum\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\149]
+@= "GetItemNumberByColNumEx"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemNumberByColNumEx]
+@= "GetItemNumberByColNumEx"
+"HasResult" = "0"
+"ReturnType" = "double"
+"NumberOfArgs" = "4"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemNumberByColNumEx\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemNumberByColNumEx\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemNumberByColNumEx\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemNumberByColNumEx\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemNumberByColNumEx\Parameters\Parameter3]
+@= "Parameter3"
+"ParamMode" = "1"
+"ParamType" = "boolean"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\150]
+@= "GetItemStatus"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStatus]
+@= "GetItemStatus"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "3"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStatus\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStatus\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStatus\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStatus\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\151]
+@= "GetItemStatusByColNum"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStatusByColNum]
+@= "GetItemStatusByColNum"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "3"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStatusByColNum\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStatusByColNum\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStatusByColNum\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStatusByColNum\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\152]
+@= "GetItemString"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemString]
+@= "GetItemString"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "2"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemString\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemString\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemString\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\153]
+@= "GetItemStringEx"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStringEx]
+@= "GetItemStringEx"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "4"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStringEx\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStringEx\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStringEx\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStringEx\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStringEx\Parameters\Parameter3]
+@= "Parameter3"
+"ParamMode" = "1"
+"ParamType" = "boolean"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\154]
+@= "GetItemStringByColNum"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStringByColNum]
+@= "GetItemStringByColNum"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "2"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStringByColNum\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStringByColNum\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStringByColNum\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\155]
+@= "GetItemStringByColNumEx"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStringByColNumEx]
+@= "GetItemStringByColNumEx"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "4"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStringByColNumEx\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStringByColNumEx\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStringByColNumEx\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStringByColNumEx\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemStringByColNumEx\Parameters\Parameter3]
+@= "Parameter3"
+"ParamMode" = "1"
+"ParamType" = "boolean"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\156]
+@= "GetItemTime"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemTime]
+@= "GetItemTime"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "2"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemTime\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemTime\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemTime\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\157]
+@= "GetItemTimeEx"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemTimeEx]
+@= "GetItemTimeEx"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "4"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemTimeEx\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemTimeEx\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemTimeEx\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemTimeEx\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemTimeEx\Parameters\Parameter3]
+@= "Parameter3"
+"ParamMode" = "1"
+"ParamType" = "boolean"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\158]
+@= "GetItemTimeByColNum"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemTimeByColNum]
+@= "GetItemTimeByColNum"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "2"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemTimeByColNum\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemTimeByColNum\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemTimeByColNum\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\159]
+@= "GetItemTimeByColNumEx"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemTimeByColNumEx]
+@= "GetItemTimeByColNumEx"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "4"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemTimeByColNumEx\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemTimeByColNumEx\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemTimeByColNumEx\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemTimeByColNumEx\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemTimeByColNumEx\Parameters\Parameter3]
+@= "Parameter3"
+"ParamMode" = "1"
+"ParamType" = "boolean"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\160]
+@= "GetItemUnformattedString"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemUnformattedString]
+@= "GetItemUnformattedString"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "2"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemUnformattedString\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemUnformattedString\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemUnformattedString\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\161]
+@= "GetItemUnformattedStringEx"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemUnformattedStringEx]
+@= "GetItemUnformattedStringEx"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "4"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemUnformattedStringEx\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemUnformattedStringEx\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemUnformattedStringEx\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemUnformattedStringEx\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemUnformattedStringEx\Parameters\Parameter3]
+@= "Parameter3"
+"ParamMode" = "1"
+"ParamType" = "boolean"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\162]
+@= "GetItemUnformattedStringByColNum"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemUnformattedStringByColNum]
+@= "GetItemUnformattedStringByColNum"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "2"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemUnformattedStringByColNum\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemUnformattedStringByColNum\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemUnformattedStringByColNum\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\163]
+@= "GetItemUnformattedStringByColNumEx"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemUnformattedStringByColNumEx]
+@= "GetItemUnformattedStringByColNumEx"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "4"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemUnformattedStringByColNumEx\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemUnformattedStringByColNumEx\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemUnformattedStringByColNumEx\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemUnformattedStringByColNumEx\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetItemUnformattedStringByColNumEx\Parameters\Parameter3]
+@= "Parameter3"
+"ParamMode" = "1"
+"ParamType" = "boolean"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\164]
+@= "GetRow"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetRow]
+@= "GetRow"
+"HasResult" = "0"
+"ReturnType" = "integer"
+"NumberOfArgs" = "0"
+"NumberOfExceps" = "0"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\165]
+@= "GetValidate"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetValidate]
+@= "GetValidate"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetValidate\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetValidate\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\166]
+@= "GetValidateByColNum"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetValidateByColNum]
+@= "GetValidateByColNum"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetValidateByColNum\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetValidateByColNum\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "short"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\167]
+@= "GetValue"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetValue]
+@= "GetValue"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "2"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetValue\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetValue\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetValue\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\168]
+@= "GetValueByColNum"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetValueByColNum]
+@= "GetValueByColNum"
+"HasResult" = "0"
+"ReturnType" = "string"
+"NumberOfArgs" = "2"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetValueByColNum\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetValueByColNum\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "short"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GetValueByColNum\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\169]
+@= "GroupCalc"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\GroupCalc]
+@= "GroupCalc"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "0"
+"NumberOfExceps" = "0"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\170]
+@= "ImportString"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\ImportString]
+@= "ImportString"
+"HasResult" = "0"
+"ReturnType" = "integer"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\ImportString\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\ImportString\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\171]
+@= "ImportStringEx"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\ImportStringEx]
+@= "ImportStringEx"
+"HasResult" = "0"
+"ReturnType" = "integer"
+"NumberOfArgs" = "7"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\ImportStringEx\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\ImportStringEx\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\ImportStringEx\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\ImportStringEx\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\ImportStringEx\Parameters\Parameter3]
+@= "Parameter3"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\ImportStringEx\Parameters\Parameter4]
+@= "Parameter4"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\ImportStringEx\Parameters\Parameter5]
+@= "Parameter5"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\ImportStringEx\Parameters\Parameter6]
+@= "Parameter6"
+"ParamMode" = "1"
+"ParamType" = "integer"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\172]
+@= "InsertRow"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\InsertRow]
+@= "InsertRow"
+"HasResult" = "0"
+"ReturnType" = "integer"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\InsertRow\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\InsertRow\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\173]
+@= "ModifiedCount"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\ModifiedCount]
+@= "ModifiedCount"
+"HasResult" = "0"
+"ReturnType" = "integer"
+"NumberOfArgs" = "0"
+"NumberOfExceps" = "0"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\174]
+@= "ReselectRow"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\ReselectRow]
+@= "ReselectRow"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\ReselectRow\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\ReselectRow\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\175]
+@= "Reset"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\Reset]
+@= "Reset"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "0"
+"NumberOfExceps" = "0"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\176]
+@= "ResetUpdate"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\ResetUpdate]
+@= "ResetUpdate"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "0"
+"NumberOfExceps" = "0"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\177]
+@= "RowCount"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\RowCount]
+@= "RowCount"
+"HasResult" = "0"
+"ReturnType" = "integer"
+"NumberOfArgs" = "0"
+"NumberOfExceps" = "0"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\178]
+@= "RowsDiscard"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\RowsDiscard]
+@= "RowsDiscard"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "3"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\RowsDiscard\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\RowsDiscard\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\RowsDiscard\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\RowsDiscard\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\179]
+@= "SaveAs"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SaveAs]
+@= "SaveAs"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "3"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SaveAs\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SaveAs\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SaveAs\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SaveAs\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "boolean"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\180]
+@= "SetColumn"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetColumn]
+@= "SetColumn"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetColumn\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetColumn\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\181]
+@= "SetColumnByColNum"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetColumnByColNum]
+@= "SetColumnByColNum"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetColumnByColNum\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetColumnByColNum\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "short"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\182]
+@= "SetDetailHeight"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetDetailHeight]
+@= "SetDetailHeight"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "3"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetDetailHeight\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetDetailHeight\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetDetailHeight\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetDetailHeight\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "integer"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\183]
+@= "SetFilter"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetFilter]
+@= "SetFilter"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetFilter\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetFilter\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\184]
+@= "SetFormat"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetFormat]
+@= "SetFormat"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "2"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetFormat\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetFormat\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetFormat\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\185]
+@= "SetFormatByColNum"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetFormatByColNum]
+@= "SetFormatByColNum"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "2"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetFormatByColNum\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetFormatByColNum\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "short"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetFormatByColNum\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\186]
+@= "SetItemDate"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemDate]
+@= "SetItemDate"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "3"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemDate\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemDate\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemDate\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemDate\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\187]
+@= "SetItemDateByColNum"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemDateByColNum]
+@= "SetItemDateByColNum"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "3"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemDateByColNum\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemDateByColNum\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemDateByColNum\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemDateByColNum\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\188]
+@= "SetItemDateTime"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemDateTime]
+@= "SetItemDateTime"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "3"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemDateTime\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemDateTime\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemDateTime\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemDateTime\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\189]
+@= "SetItemDateTimeByColNum"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemDateTimeByColNum]
+@= "SetItemDateTimeByColNum"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "3"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemDateTimeByColNum\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemDateTimeByColNum\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemDateTimeByColNum\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemDateTimeByColNum\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\190]
+@= "SetItemNumber"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemNumber]
+@= "SetItemNumber"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "3"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemNumber\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemNumber\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemNumber\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemNumber\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "double"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\191]
+@= "SetItemNumberByColNum"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemNumberByColNum]
+@= "SetItemNumberByColNum"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "3"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemNumberByColNum\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemNumberByColNum\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemNumberByColNum\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemNumberByColNum\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "double"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\192]
+@= "SetItemStatus"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemStatus]
+@= "SetItemStatus"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "4"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemStatus\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemStatus\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemStatus\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemStatus\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemStatus\Parameters\Parameter3]
+@= "Parameter3"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\193]
+@= "SetItemStatusByColNum"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemStatusByColNum]
+@= "SetItemStatusByColNum"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "4"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemStatusByColNum\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemStatusByColNum\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemStatusByColNum\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemStatusByColNum\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemStatusByColNum\Parameters\Parameter3]
+@= "Parameter3"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\194]
+@= "SetItemString"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemString]
+@= "SetItemString"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "3"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemString\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemString\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemString\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemString\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\195]
+@= "SetItemStringByColNum"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemStringByColNum]
+@= "SetItemStringByColNum"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "3"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemStringByColNum\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemStringByColNum\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemStringByColNum\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemStringByColNum\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\196]
+@= "SetItemTime"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemTime]
+@= "SetItemTime"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "3"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemTime\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemTime\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemTime\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemTime\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\197]
+@= "SetItemTimeByColNum"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemTimeByColNum]
+@= "SetItemTimeByColNum"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "3"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemTimeByColNum\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemTimeByColNum\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemTimeByColNum\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetItemTimeByColNum\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\198]
+@= "SetPosition"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetPosition]
+@= "SetPosition"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "3"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetPosition\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetPosition\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetPosition\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetPosition\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "boolean"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\199]
+@= "SetRow"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetRow]
+@= "SetRow"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetRow\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetRow\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "integer"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\200]
+@= "SetSort"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetSort]
+@= "SetSort"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetSort\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetSort\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\201]
+@= "SetSQLSelect"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetSQLSelect]
+@= "SetSQLSelect"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetSQLSelect\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetSQLSelect\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\202]
+@= "SetValidate"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetValidate]
+@= "SetValidate"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "2"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetValidate\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetValidate\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetValidate\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\203]
+@= "SetValidateByColNum"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetValidateByColNum]
+@= "SetValidateByColNum"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "2"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetValidateByColNum\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetValidateByColNum\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "short"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetValidateByColNum\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\204]
+@= "SetValue"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetValue]
+@= "SetValue"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "3"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetValue\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetValue\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetValue\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetValue\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\205]
+@= "SetValueByColNum"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetValueByColNum]
+@= "SetValueByColNum"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "3"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetValueByColNum\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetValueByColNum\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "short"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetValueByColNum\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "short"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetValueByColNum\Parameters\Parameter2]
+@= "Parameter2"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\206]
+@= "Sort"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\Sort]
+@= "Sort"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "0"
+"NumberOfExceps" = "0"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\207]
+@= "UpdateEx"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\UpdateEx]
+@= "UpdateEx"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "2"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\UpdateEx\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\UpdateEx\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "boolean"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\UpdateEx\Parameters\Parameter1]
+@= "Parameter1"
+"ParamMode" = "1"
+"ParamType" = "boolean"
+
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\208]
+@= "SetDWObjectEx"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetDWObjectEx]
+@= "SetDWObjectEx"
+"HasResult" = "0"
+"ReturnType" = "short"
+"NumberOfArgs" = "1"
+"NumberOfExceps" = "0"
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetDWObjectEx\Parameters]
+[HKEY_CLASSES_ROOT\CLSID\{cc696fb4-07a2-4d4e-bf58-3be023b4230e}\Methods\SetDWObjectEx\Parameters\Parameter0]
+@= "Parameter0"
+"ParamMode" = "1"
+"ParamType" = "string"
+
+[HKEY_CLASSES_ROOT\TypeLib\{b795971c-1347-11d5-a1f4-00c04f60fa75}]
+@= "DataWindow.HTMLGenerator90 Proxy Component Type Library"
+[HKEY_CLASSES_ROOT\TypeLib\{b795971c-1347-11d5-a1f4-00c04f60fa75}\4.0]
+@= "DataWindow.HTMLGenerator90 Proxy Component Type Library"
+[HKEY_CLASSES_ROOT\TypeLib\{b795971c-1347-11d5-a1f4-00c04f60fa75}\4.0\0\DIR]
+@= "c:\\Program Files\\sybase\\shared\\powerbuilder"
+[HKEY_CLASSES_ROOT\TypeLib\{b795971c-1347-11d5-a1f4-00c04f60fa75}\4.0\0\win32]
+@= "c:\\Program Files\\sybase\\shared\\powerbuilder\\pbdwr90.tlb"
+
+[HKEY_CLASSES_ROOT\Interface\{f04b8220-8d86-4d14-a066-35a3c90d41a9}]
+@= "HTMLGenerator90Intf Jaguar Interface"
+[HKEY_CLASSES_ROOT\Interface\{f04b8220-8d86-4d14-a066-35a3c90d41a9}\TypeLib]
+@= "{b795971c-1347-11d5-a1f4-00c04f60fa75}"
+[HKEY_CLASSES_ROOT\Interface\{f04b8220-8d86-4d14-a066-35a3c90d41a9}\IsJaguarInterface]
+@= "TRUE"
+
+[HKEY_LOCAL_MACHINE\Software\Sybase\Jaguar CTS\Interfaces]
+[HKEY_LOCAL_MACHINE\Software\Sybase\Jaguar CTS\Interfaces\DataWindow::HTMLGenerator90]
+[HKEY_LOCAL_MACHINE\Software\Sybase\Jaguar CTS\Interfaces\DataWindow::HTMLGenerator90\ProgID]
+@= "DataWindow.HTMLGenerator90.4"
+

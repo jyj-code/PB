@@ -1,0 +1,192 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Generator" content="Microsoft Word 97">
+   <meta name="Template" content="D:\Program Files\Microsoft Office\Office\html.dot">
+   <meta name="GENERATOR" content="Mozilla/4.5 [en] (WinNT; I) [Netscape]">
+   <title>Persits Software AspEmail Manual</title>
+</head>
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#800080">
+
+<center>
+<h1>
+<font face="Tahoma"><font color="#009900">AspEmail 2.2 Manual</font></font></h1></center>
+
+<center>
+<h2>
+<font face="Tahoma"><font color="#009900">Copyright (c) 1998 Persits Software,
+Inc.</font></font></h2></center>
+
+<hr>
+<p>Register <b>AspEmail</b> by executing the following command at MS DOS
+or Start/Run prompt:
+<ul>
+<pre><font face="Currier">C:\>regsvr32 c:\AspEmailDir\AspEmail.dll</font></pre>
+</ul>
+<b><font face="Currier"></font></b>
+<p><br><font face="Currier"><b>AspEmail</b> is shipped with a trial version
+of the <b>AspUpload</b> component from <i>Persits Software,</i> which can
+be used to upload file attachments to the server as discussed below. Register
+<b>AspUpload</b> by executing the following command:</font>
+<ul>
+<pre><font face="Currier">C:\>regsvr32 c:\AspEmailDir\AspUpload.dll</font></pre>
+</ul>
+<font face="Currier"></font>
+<p><br><font face="Currier">AspUpload is not needed to run AspEmail. However,
+the sample ASP application shipped with AspEmail makes use of it to demonstrate
+the attachment functionality of AspEmail, so it is a good idea to register
+it too, unless it has already been registered on your system.</font>
+<br>
+<hr>
+<br>Create an instance of AspEmail object as follows:
+<br>&nbsp;
+<ul>
+<pre><font face="Currier">Set Mail = Server.CreateObject("Persits.MailSender")</font></pre>
+</ul>
+
+<hr>
+<center>
+<h2>
+<i><font face="Currier">AspEmail <font color="#FF0000">Properties</font>
+and <font color="#0000FF">Methods</font></font></i></h2></center>
+
+<pre><b><font face="Currier"><font color="#FF0000">Host </font><i>As String</i></font></b></pre>
+
+<dl>
+<dd>
+The internet address of the SMTP server to be used to send email.</dd>
+
+<dd>
+E.g.</dd>
+
+<dd>
+<font face="Courier">Mail.Host = "mail.mycompany.com"</font></dd>
+</dl>
+
+<pre><b><font face="Currier"><font color="#FF0000">Port </font><i>As Integer</i></font></b></pre>
+
+<dl>
+<dd>
+The SMTP server port address. 25 by default.</dd>
+</dl>
+
+<pre><b><font face="Currier"><font color="#FF0000">From </font><i>As String</i></font></b></pre>
+
+<dl>
+<dd>
+The email address of the sender.</dd>
+</dl>
+
+<pre><b><font face="Currier"><font color="#FF0000">FromName </font><i>As String</i></font></b></pre>
+
+<dl>
+<dd>
+The full name of the sender.</dd>
+</dl>
+
+<pre><b><font face="Currier"><font color="#FF0000">Subject </font><i>As String</i></font></b></pre>
+
+<dl>
+<dd>
+The Subject line of the letter.</dd>
+</dl>
+
+<pre><b><font face="Currier"><font color="#FF0000">Body </font><i>As String</i></font></b></pre>
+
+<dl>
+<dd>
+The body of the letter.</dd>
+</dl>
+
+<pre><b><font face="Currier"><font color="#0000FF">AddAddress(Email </font>As String<font color="#0000FF">, Optional Name )</font></font></b></pre>
+
+<dl>
+<dd>
+Adds an email address and optionally the corresponding full name to the
+letter's TO list.</dd>
+</dl>
+
+<pre><b><font face="Currier"><font color="#0000FF">AddCC(Email </font>As String<font color="#0000FF">, Optional Name )</font></font></b></pre>
+
+<dl>
+<dd>
+Adds an email address and optionally the corresponding full name to the
+letter's CC list.</dd>
+</dl>
+
+<pre><b><font face="Currier"><font color="#0000FF">AddBCC(Email </font>As String<font color="#0000FF">, Optional Name )</font></font></b></pre>
+
+<dl>
+<dd>
+Adds an email address and optionally the corresponding full name to the
+letter's BCC list.</dd>
+</dl>
+
+<pre><b><font face="Currier"><font color="#0000FF">AddReplyTo(Email </font>As String<font color="#0000FF">, Optional Name )</font></font></b></pre>
+
+<dl>
+<dd>
+Adds an email address and optionally the corresponding full name to the
+letter's REPLY-TO list.</dd>
+</dl>
+
+<pre><b><font face="Currier"><font color="#0000FF">AddAttachment(Path</font> as String<font color="#0000FF">)</font></font></b></pre>
+
+<dl>
+<dd>
+Adds a file path to the list of attachments to be sent with the letter.</dd>
+</dl>
+
+<pre><b><font face="Currier"><font color="#0000FF">Send As Boolean</font></font></b></pre>
+
+<dl>
+<dd>
+Sends the letter. Throws exceptions in case of errors.</dd>
+</dl>
+
+<pre><b><font face="Currier"><font color="#0000FF">Reset</font></font></b></pre>
+
+<ul>Empties all the address lists so that a new letter could be sent.</ul>
+
+<hr>
+<center>
+<h2>
+Code Snipet</h2></center>
+
+<pre>&nbsp;&nbsp;&nbsp; Set Mail = Server.CreateObject("Persits.MailSender")
+&nbsp;&nbsp;&nbsp; Mail.Host = "smtp.yourcompany.com"
+&nbsp;&nbsp;&nbsp; Mail.From = "BYeltsin@Kremlin.gov.ru"
+&nbsp;&nbsp;&nbsp; Mail.FromName = "President Boris Yeltsin"
+&nbsp;&nbsp;&nbsp; Mail.AddAddress "jsmith@company.net", "John Smith, Jr."
+&nbsp;&nbsp;&nbsp; Mail.AddAddress "paul@company.com", "Paul L.Johnson, Esq."
+&nbsp;&nbsp;&nbsp; Mail.AddReplyTo "receptions@Kremlin.gov.ru"
+&nbsp;&nbsp;&nbsp; Mail.Subject = "Black Tie Reception in Kremlin On May Day"
+&nbsp;&nbsp;&nbsp; Mail.Body = "Dear Sir:" + Chr(13) + Chr(10) + "Please be at the Kremlin on May 1."
+&nbsp;&nbsp;&nbsp; On Error Resume Next
+&nbsp;&nbsp;&nbsp; Mail.Send
+&nbsp;&nbsp;&nbsp; If Err &lt;> 0 Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Response.Write "Letter was not sent due to the following error: " &amp; Err.Description
+&nbsp;&nbsp;&nbsp; End If</pre>
+
+<pre>
+<hr WIDTH="100%"></pre>
+
+<center>
+<h2>
+Sample ASP Application</h2></center>
+AspEmail is shipped with a sample ASP application that allows you to create
+and send email messages with attachments over the Web. The application
+consists of the following files:
+<p><b>global.asa</b> (collection object creation)
+<br><b>SendMail.asp</b> (main Email interface page)
+<br><b>Attachments.asp</b> (attachment handling page)
+<br><b>UploadScript.asp</b> (upload script which uses AspUpload).
+<p>To upload file attachments from a client machine to the server where
+the script is running, the application uses a trial version of <b>AspUpload</b>,
+a powerful file upload component from Persits Software. The file <b>AspUpload.dll</b>
+is shipped with AspEmail and must be registered on your system for the
+sample application to function. For complete documentation on the AspUpload
+component, or to purchase AspUpload, go to <a href="http://www.aspupload.com">http://www.AspUpload.com</a>.
+</body>
+</html>

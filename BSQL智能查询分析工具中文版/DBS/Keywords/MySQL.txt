@@ -1,0 +1,53 @@
+SELECT
+*
+FROM
+WHERE
+ORDER BY
+GROUP BY
+UNION
+LEFT JOIN
+OUTER JOIN
+INNER JOIN
+DESC
+HAVING
+NULL
+FOR
+ON
+UPDATE
+INSERT
+INTO
+VALUES
+--
+AS
+ASC
+CREATE
+ALTER
+TABLE
+DATABASE
+DROP
+DELETE
+EXEC
+RESTORE
+BACKUP
+CONNECT
+SET
+COUNT
+AND
+OR
+NOT
+LIKE
+BETWEEN
+DESC [Data]
+DESC [Tables]
+DESC [Table]
+DESC [Indexes]
+DESC [AllIndexes]
+DESC [Constraints]
+DESC [AllConstraints]
+DESC [ForeignKeys]
+DESC [AllForeignKeys]
+DESC [Triggers]
+DESC [AllTriggers]
+DESC [Views]
+DESC [Functions]
+DESC [Procedures]

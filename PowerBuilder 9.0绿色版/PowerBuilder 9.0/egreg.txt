@@ -1,0 +1,71 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\Sybase SQL Server]
+"PBCatalogOwner" = "dbo"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\Sybase SQL Server]
+"PBSyntax" = "MY_SYBASE_SYNTAX"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\Sybase SQL Server]
+"PBDateTime" = "MY_SYBASE_DATETIME"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\Sybase SQL Server]
+"PBSpecialDataTypes" = "MY_SYBASE_SPECIALDATATYPES"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\Sybase SQL Server]
+"PBObjectIDs" = "YES"
+
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_SYNTAX]
+"CreateTable" = "CREATE TABLE &TableOwner.&TableName (::ColumnElement[, ::ColumnElement]...)"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_SYNTAX]
+"ColumnElement" = "&ColumnName &DataType &Null"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_SYNTAX]
+"CreateIndex" = "CREATE &UNIQUE INDEX &IndexName ON &TableOwner.&TableName (::ColumnIndex[, ::ColumnIndex]...)"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_SYNTAX]
+"ColumnIndex" = "&ColumnName &Descending"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_SYNTAX]
+"DropIndex" = "DROP INDEX &TableName.&IndexName"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_SYNTAX]
+"AlterForeignKey" = "ALTER TABLE &TableOwner.&TableName ADD CONSTRAINT &KeyName  FOREIGN KEY (&ColumnName[,&ColumnName]...) REFERENCES &RefTableOwner.&RefTableName"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_SYNTAX]
+"AlterPrimaryKey" = "ALTER TABLE &TableOwner.&TableName ADD PRIMARY KEY (&ColumnName[,&ColumnName]...)"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_SYNTAX]
+"CreatePrimaryKey" = ", PRIMARY KEY (&ColumnName[,&ColumnName]...)"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_SYNTAX]
+"CreateForeignKey" = ", CONSTRAINT &KeyName FOREIGN KEY (&ColumnName[,&ColumnName]...) REFERENCES &RefTableOwner.&RefTableName"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_SYNTAX]
+"DropPrimaryKey" = "ALTER TABLE &TableName DROP CONSTRAINT &KeyName"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_SYNTAX]
+"DropForeignKey" = "ALTER TABLE &TableOwner.&TableName DROP CONSTRAINT &KeyName"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_SYNTAX]
+"DropTable" = "DROP TABLE &TableOwner.&TableName"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_SYNTAX]
+"DropView" = "DROP VIEW &TableOwner.&TableName"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_SYNTAX]
+"RenameTable" = "EXECUTE sp_rename &OldTableName, &NewTableName"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_SYNTAX]
+"RenameColumn" = "EXECUTE sp_rename ::RenameColElement"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_SYNTAX]
+"RenameColElement" = "\"&TableName.&OldColumnName\", &NewColumnName"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_SYNTAX]
+"AddColumn" = "ALTER TABLE &TableOwner.&TableName ADD ::AddColElement[, ::AddColElement ]..."
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_SYNTAX]
+"AddColElement" = "&ColumnName &DataType &Null"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_SYNTAX]
+"GrantTablePrivilege" = "GRANT &Privilege[,&Privilege]... ON &TableOwner.&TableName TO &UserName[,&UserName]..."
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_SYNTAX]
+"RevokeTablePrivilege" = "REVOKE &Privilege[,&Privilege]... ON &TableOwner.&TableName FROM &UserName[,&UserName]..."
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_SYNTAX]
+"PBOuterJoin" = "&FirstJoin &OuterJoin1&Operator&OuterJoin2 &SecondJoin"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_SYNTAX]
+"PBOuterJoinOperator" = "*"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_SYNTAX]
+"PBSelectProcSyntax" = "select text from dbo.syscomments where id = object_id(''&ObjectOwner.&ObjectName'')"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_SYNTAX]
+"PBSelectViewSyntax" = "select text from dbo.syscomments where id = object_id(''&ObjectOwner.&ObjectName'')"
+
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_SPECIALDATATYPES]
+"SpecialDataTypes" = "timestamp=DBI_TYPETIMESTAMP=100,money=DBI_TYPEMONEY=101"
+
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_DATETIME]
+"PBDateFmt" = "\'{d \'\\\'yyyy-mm-dd\\\'\' }\'"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_DATETIME]
+"PBTimeFmt" = "\'{t \'\\\'hh:mm:ss\\\'\'}\'"
+[HKEY_CURRENT_USER\Software\Sybase\PowerBuilder\9.0\pbjdbc\MY_SYBASE_DATETIME]
+"PBDateTimeFmt" = "\'{ts \'\\\'yyyy-mm-dd hh:mm:ss.ffffff\\\'\'}\'"

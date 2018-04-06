@@ -1,0 +1,1448 @@
+[language]
+Name=English
+DisplayName=English
+
+[Default]
+RSBAIN=BAIN
+RSDefaultCFontName=MS Sans Serif
+RSHint=Hint
+RSFailedOpenFile=Failure to open the file %s
+RSFailedCreateFileMapping=Failure to Create file mapping
+RSReCreateFileReadOnly=Failure to open the file,try to open it in read-only mode
+RSSetName=Set Name
+RSEnterName=Enter Name:
+RSConfirmDelete=Confirm to delete?
+RSDefaultGroupCaption=Base Info
+RSErrorOriInfo=The original information£º
+RSClose=Close
+RSOK=Ok
+RSCancel=Cancel
+RSClear=Clear
+RSDefaultScheme=Default
+RSAskForExit=Confirm that you want to exit?
+RSGridMode=Grid Mode
+RSMISendMail=Send Email
+RSImportViews=Import Views
+RSImportProcedures=Import Procedures
+RSAskForBreakOff=Confirm that you want to stop?
+RSBreakOffHint=The operation has been interrupted
+RSBreakOff=Stop
+RSTopTable=First Table
+RSBottomTable=Last Table
+RSPrevTable=Prior Table
+RSNextTable=Next Table
+
+RSMIFile=File
+RSMIConnect=Database Connection
+RSMIBuild=Create or update
+RSMIReBuild=Re-create
+RSMIData=Data
+RSMISynchronization=Synchronization
+RSMITableProperty=Table Properties
+RSMIBuildAll=All Tables
+RSMIDesign=Design
+RSMIExit=Exit
+RSMIOpen=Open
+RSMISave=Save
+RSMIHelp=Help
+RSMIHelpFile=Help 
+RSMIAbout=About
+RSRegister=Register
+RSTrialDaysHint=Thanks for trying this trial version, you have %d days left.
+RSRegistrationHint=Would you like to enter the serial number now?
+RSOnlineRegister=Buy Now
+RSOnlineRegisterHint=Buy Now
+RSRegisterSuccess=You have successfully registered! Thank you very much.
+RSRegisterFailed=Registration failed: The entered key is invalid.
+RSUserName=UserName
+RSRegisterID=Serial Number
+RSTrailDate=Trail Day
+RSAskForOpenExportFile=Export finished, Do you want to open the file now?
+RSMIBainHomePage=Bainsoft Web Site
+RSMISaveSetting=Save Settings 
+RSMIShowList=Table List
+RSMISaveAll=Save All
+RSMISetting=Settings
+RSMIOperate=Operation
+RSMINew=New
+RSMIDelete=Delete
+RSMIEditName=Edit Name
+RSMIEdit=Edit
+RSMIBuildScript=Generate SQL Script
+RSMIQuickAccess=Quick Access
+RSMIAdd=Add
+RSMICopy=Copy
+RSBuildingFK=Updating Foreign keys...
+RSPlus=Extra
+RSODBCDriver=ODBC Driver
+RSInvalidInput=Invalid Input
+RSMIRename=Rename
+
+RSWorkPath=Work Path
+RSResName=Resource Name
+RSTableList=Table List
+RSMITableList=Table List
+RSSetSchemes=Schemas
+RSEditScheme=Edit
+RSInitScheme=Initialize Schema
+RSDefaultScheme=Default
+RSAskForDeleteScheme=Confirm that you want to delete the schema?
+RSConnection=DB Connection
+RSNullConnection=<Null>
+RSNotNullConnection=<Not Null>
+RSErrorInvalidScheme=Void schema, Please check all input items
+RSSave=Save
+RSBuild=Build
+RSDesign=Design
+RSValid=Valid
+RSDisplayName=Display Name
+RSResFile=Resource File
+RSResPath=Res Path
+RSFields=Fields
+RSGroupFields=Group Fields
+RSWhere=Where
+RSSQLText=SQL Text
+
+RSHint=Hint 
+RSInitConnection=Unable to connect to the database, To initialize connection now?
+
+RSSaveFileHint=Save current table model to file
+RSAskForClear=Confirm that you want to clear?
+RSBuildScript=Table[%s]Script
+RSNoUpdate=No changes
+RSTableProperty=Table Properties
+RSMISetSchemes=Manage Schemas
+RSMICompile=Update Script
+RSInvalidTableName=The table name is empty!
+RSRepeatTableName=The table name is repeated!
+RSRecentDocuments=Bookmarks
+RSMIFavorite=Toggle Bookmark
+RSRefresh=Refresh
+RSMIBuildAllScript=All Update Script
+RSMIRebuildScript=Re-create Script
+RSMIRebuildAllScript=All Re-create Script
+RSWorkPathHint=The saving path  of database resources file
+RSTableDisplayName=Table Display Name
+RSAskForSave=The data has been modified, Would you like to save changes?
+RSAskForSync=Confirm that you want to synchronize the current attributes to all table models?
+RSMITable=Operation
+RSMIDB=Database
+RSMIDBInfo=Database Model
+RSMIShowTableList=Table List
+RSMICreateNewTable=New Table
+RSMICreateNewTableFromCurrent=Replicate Table
+RSMISaveReBuildSQLScript=Save Re-create SQL scripts to file
+RSMIReBuildCurrentTable=Re-create Table
+RSMIReBuildAll=Re-Create All Tables
+RSMISaveBuildSQLScript=Save update SQL scripts to file
+RSMIBuildCurrentTable=Current Table
+RSMITableInfo=Table Model
+RSMILoadFromDB=Load From DB
+RSMIStayOnTop=Stoy On Top
+RSMIDeleteCurrentTable=Delete Current
+RSMIDeleteTable=Delete Table
+RSMIAppendRecord=Append Record
+RSMIInsertRecord=Insert Record
+RSMICopyRecord=Copy Record
+RSMIPasteRecord=Paste Record
+RSMIDeleteSelectedRecords=Delete Selected
+RSMIDeleteRecord=Delete Record
+RSMISetTableName=Set Table Name
+RSMIExportToFile=Export To Excel
+RSMIExportAllToFile=Export All To Excel
+RSMISynchronizationCurrentColumn=Current Column
+RSMISynchronizationCurrentTable=Current Table
+RSMICompare=Compare
+RSMICompareAll=Compare All
+RSCompareResult=The comparison results
+RSCompareProperty=Property|DB;Res
+RSMIDataExport=Export Data
+RSMIExportSelected=Export Selected
+RSMIDataImport=Import Data
+RSMIFullDataImport=Re-import Data
+RSMISaveRecord=Save Record
+RSAskForFullDataImport=The operation will delete the existing table data, Confirm that you want to continue?
+RSSysUserName=Sys User
+
+RSTableData=Table Data
+RSTSQuery=Query
+RSDataQuery=Execute
+RSSQLLoad=Load
+RSSQLSave=Save
+RSSchemes=Schema
+
+RSTSStep1=Set Name
+RSTSStep2=Set Data
+RSTSStep3=Set Options
+
+RSName=Name
+RSTitle=Title
+RSTableName=Table Name
+
+RSLastUpdateTime=Last Modification Time
+RSLastUpdateSign=Last Modification User
+RSCreateTime=Creation Time
+RSCreateSign=Creation User
+
+RSSetData=Set Data
+RSSelectColumn=Select Column
+RSSetWhere=Set Conditions
+RSBtnSelectAll=Select All
+RSBtnNoSelectAll=UnSelect All
+
+RSBtnStep1=Next>>
+RSBtn2Up=<<Prev
+RSBtn2Down=Next>>
+RSBtn3Up=<<Prev
+RSBtnFinish=Finish
+
+RSAskForFinished=Certain to save and create?
+
+RSPrimaryKey=Primary Key
+RSCreated=Created
+RSDeleted=Deleted
+
+RSCountFormat=Count:0 
+
+RSColumnCaption_pk=PK 
+RSColumnCaption_index=Index 
+RSColumnCaption_name=Code
+RSColumnCaption_displayname=Name 
+RSColumnCaption_typename=Data Type 
+RSColumnCaption_precision=Precision
+RSColumnCaption_scale=Scale 
+RSColumnCaption_Length=Length 
+RSColumnCaption_allownull=Allow Nulls
+RSColumnCaption_identity=Identity
+RSColumnCaption_Seed=Seed
+RSColumnCaption_Increment=Increment
+RSColumnCaption_visible=Visible
+RSColumnCaption_default=Default
+RSColumnCaption_remark=Comment
+RSColumnCaption_OldColumnName=Old Code 
+RSColumnCaption_DisplayWidth=Display Width
+RSColumnCaption_PickList=Pick List
+RSColumnCaption_Source=Source
+RSColumnCaption_SourceItems=Source Items 
+RSColumnCaption_DestItems=Target Items
+
+RSColumnCaption_reserved1=Reserved 1
+RSColumnCaption_reserved2=Reserved 2 
+RSColumnCaption_reserved3=Reserved 3 
+RSColumnCaption_reserved4=Reserved 4
+RSColumnCaption_reserved5=Reserved 5 
+RSColumnCaption_reserved6=Reserved 6 
+RSColumnCaption_reserved7=Reserved 7
+
+RSSetTableName=Set Table Name
+RSEnterTableName=Enter table name:
+RSBuildCompleted=Updating is finished!
+RSDeleteTableCompleted=The table has been deleted!
+RSAskForDeleteTable=Confirm to delete the table?
+RSConfirmDeleteTableInfo=Confirm to delete the table model?
+RSAskForSaveToFile=The data has been changed,Do you want to save the changes to file?
+RSRebuildHint=The operation will delete the existing table data confirm that you want to continue?
+RSFailedLoadResFile=Failure to load the resource file,try to load it from the database
+RSErrorInvalidConnectionObject=Un-initialized database access Object,set database connection first
+RSErrorInvalidStreamFormat=Invalid stream format
+
+RSTestConnectionFailed=Test completed failure
+RSTestConnectionSuccess=Test completed successfully
+RSErrorConnectionFailed=Failure to connect to the database
+
+RSErrorInfo=Error Information:
+RSErrorSource=Source of error:
+
+RSAddScheme=New
+RSEditScheme=Edit
+RSDeleteScheme=Delete
+
+
+RSDBSetup=DB Setup
+RSSelectDBType=Select DBMS
+RSDBSetting=DB Options
+RSDBServer=DB Server
+RSDBUserName=User Name
+RSDBPassword=Password
+RSDBName=DB Name
+RSProgress=Progress
+RSTestConnection=Test Connection
+RSStartSetup=Install
+RSExit=Exit
+RSSetConnect=Set Connection
+RSSelectDBTypeFirst=Please select a DBMS
+RSSetConnectionFirst=Please set up the database connection
+RSSetDBNameFirst=Please enter the database name
+
+RSAskForExitWhenInstalling=To interrupt the installation?
+
+RSInfoCreateDB=Creating database...
+RSInfoConnectDB=Connecting to the database...
+RSInfoBuildDBInfo=Updating database model
+RSInfoCompleteInstall=Finished
+RSInfoInitData=Loading initialization data
+RSInfoUpdateData=Upgrading database
+
+RSMISyncFromDB=Reverse From DB
+RSMISyncAllFromDB=Reverse All From DB
+RSSyncFromDB=Reverse the data objects from the database?
+
+RSErrorLoadExcel=Unable to load from excel
+RSMIImportFromFile=Import From Excel
+RSMIRestNo=Re-set Index
+
+RSConnectionProperty=Connect to database
+RSDBType=DBMS
+RSUserName=Username
+RSPassword=Password
+RSServer=Server
+RSDatasource=Datasource
+RSDatabase=Database
+RSTestConnection=Test Connection
+
+RSSetup=Setup
+RSConnectioin=DB Connection
+RSDataPath=Data Path
+RSSize=Size
+RSOutPut=Output
+RSMessage=Message
+RSMIShowOutput=Output
+RSMIView=View
+RSMIShowStatusbar=Status Bar
+
+RSColumnCaption_Context=Text
+RSOther=Other
+RSHardwareID=Machine ID
+RSAskForDeleteObject=Confirm to delete the data object?
+RSRecords=Records
+RSMICopy=Copy
+RSMIPaste=Paste
+RSMICut=Cut
+RSMIUndo=Undo
+RSMISelectAll=Select All
+RSMICurrentView=Current View
+RSMIAllViews=All Views
+RSMICurrentProcedure=Current Procedure
+RSMIAllProcedures=All Procedures
+RSMIDeleteView=Delete View
+RSMIDeleteProcedure=Delete Procedure
+RSHint_MIBuildCurrentView=Create or update the current view
+RSHint_MIBuildAllViews=Create or update all views
+RSHint_MIBuildCurrentProcedure=Create or update the current procedure
+RSHint_MIBuildAllProcedures=Create or update all procedures
+RSHint_MIDeleteView=Delete the current view
+RSHint_MIDeleteProcedure=Delete the current procedure
+RSMITools=Tools
+RSMIOptions=Options
+RSMIDBTransfer=Database Migration
+RSMIBuildDBSetup=Generate DB Setup
+RSMIDBSetup=DB Setup Tool
+RSMISQLEditor=SQL Editor
+RSRichEditTextNotFound=The search text is not found.
+RSMIClipBoard=Clipboard
+RSMIParagraph=Paragraph
+RSWordWrap=Auto Line
+RSUppercase=Uppercase
+RSLowercase=Lowercase
+RSMIFontAndColors=Fonts And Colors
+RSMIClear=Clear
+RSMIFind=Find
+RSMIReplace=Replace
+RSMIFont=Font
+RSMIFontSize=Font Size
+RSMIBold=Bold
+RSMIItalic=Italic
+RSMIUnderline=Underline
+RSMIAlignLeft=Align Left
+RSMICenter=Center
+RSMIAlignRight=Align Right
+RSLocked= Locked
+RSColumnNumber= Row: 0
+RSLineNumber= Line: 0
+RSRichEditReplaceAllResult=Replaced %d occurances.
+RSLineInfo= Line: %3d
+RSRowInfo= Row: %3d
+RSModified=Modified
+RSMIClearComments=Clear Comments
+RSForSupport=For BDB Technical Support
+RSNotSupportedObjectType=The type of object is not supported
+RSMIUpgradeDB=Upgrade DB
+RSMore=More >>
+RSLess=<< Less
+RSAskForUpdateObj=Confirm to execute the operation?
+RSModifiedAskForClose=Data has been changed to confirm be closed?
+RSApply=Apply
+RSDataType=Data Type
+RSKeywords=Keywords
+RSPath=Path
+RSDBSetupPath=Deployment Path
+RSGeneral=General
+RSLogs=Logs
+RSSecurity=Security
+RSDBLoginCheck=Login Check
+RSShortCut=ShortCut
+RSSQLEditorShortCut=SQL Editor rapid input shortcut
+RSMainForm=Main Interface
+RSBackgroundColor=Background Color
+RSForegroundColor=Foreground Color
+RSRestoreLayout=Restore interface defaults
+RSRestoreGrids=Restore grid defaults
+RSLoadLogs=Load log file
+RSClearLogs=Clear log file
+RSDefault=Default
+RSLoginFailed=Login validation failure!
+RSSet=Set
+RSPassword=Password
+RSConfirmPassword=Retype Password
+RSLoginCheck=Login Verification
+RSNotSamePassword=Please enter the same password in both the Password and Retype Password fields!
+RSSetSuccess=Complete set!
+RSLoginCheckFailed=Login validation failure! The system will be automatically terminated now.
+RSEnterPassword=Enter Password
+RSLoginCheckAgain=Password invalid, Please re-enter your password.
+RSDefDatabaseName=Default Database
+RSDefDBType=Default DBMS
+RSDefDBSize=Default DB Size
+RSInvalidPath=Path incorrect!
+RSBuildDBSetupSuccess=The Operation completed, The output path is
+RSDBSetupFileNotExists=The "DBSetup.exe" file not found.
+RSOutputPath=Output path
+RSImportData=Import Data
+RSInvalidLink=Invalid database connection, Please check
+RSSource=Source
+RSDest=Target
+RSMoveDBSuccess=Database migration success!
+RSSyncObjFromDB=Reverse From DB
+RSCompareSameObj=The current data object does not changes
+RSObjNotCreated=The current data object does not create
+RSCurrent=Current
+RSAskForUpgradeDB=Confirm to upgrade current structure to the database?
+RSUpgradeTables=Upgrading Tables...
+RSUpgradeViews=Upgrading Views...
+RSUpgradeProcedures=Upgrading Procedures...
+RSQuery=Query
+RSShowRowNumber=Show line numbers
+RSAllTables=All Tables
+RSAllFields=All Fields
+RSOperators=Operators
+RSScript=Script
+RSNewObject=New Object
+RSDescTable=Table Description
+RSAllViews=All Views
+RSAllProcedures=All Procedures
+RSAllFunctions=All Functions
+RSAddTo=Insert
+
+RSInvalid=Invalid
+RSNotCreated=Not Created
+RSCurrentTable=Current Table
+RSLastUpdate=Last Modification
+RSSyntax=SQL Syntax
+RSResult=Results
+RSAppearance=Appearance
+RSMain=Null
+RSCustom=Custom
+RSEditCustom=Null
+RSEditRecord=Edit Record
+RSMIEditRecord=Edit Record
+RSExecuteCompleted=Done!
+RSTableNoUpdate=No Changes
+RSColumnCaption_TableIndex_Constraint=Constraint
+
+RSHint_MISave=Save current table model to file
+RSHint_MISaveAll=Save all table models to file
+RSHint_MIExportToFile=Export the current grid data to excel
+RSHint_MIExportAllToFile=Export all table models to excel
+RSHint_MIImportFromFile=Import the current grid data from excel
+
+RSHint_MIConnect=Set database connection
+RSHint_MIEditProperty=Edit current table attributes
+RSHint_MITableList=Get all table list
+
+RSHint_MICreateNewTable=Create a new table model
+RSHint_MICreateNewTableFromCurrent=Replicate a new table model from current table model
+RSHint_MIDeleteCurrentTable=Delete the current table model
+
+RSHint_MISynchronizationCurrentColumn=Synchronize the current column attribute to all table models
+RSHint_MISynchronizationCurrentTable=Synchronize the current table attribute to all table models
+RSHint_MISyncFromDB=Reverse the current table model from the database
+RSHint_MISyncAllFromDB=Reverse all table models from the database
+
+RSHint_MIBuildScript=Generate create or update the current table sql script
+RSHint_MIBuildAllScript=Generate create or update all tables sql script
+RSHint_MIRebuildScript=Generate re-create the current table sql script
+RSHint_MIRebuildAllScript=Generate re-create all tables sql script
+
+RSHint_MIAppendRecord=Append record
+RSHint_MIInsertRecord=Insert record
+RSHint_MIDeleteRecord=Delete the current record
+RSHint_MIDeleteSelectedRecords=Delete the selected records
+RSHint_MIEditRecord=Edit the current record
+RSHint_MISaveRecord=Save record
+RSHint_MICopyRecord=Replicate a new record from the current record
+RSHint_MIRestNo=Auto re-set grid index column
+
+RSHint_MIBuildCurrentTable=Create or update the current table by table model
+RSHint_MIBuildAll=Create or update all tables by table models
+RSHint_MIReBuildCurrentTable=Re-create the current table
+RSHint_MIReBuildAll=Re-create all tables
+
+RSHint_MIDeleteTable=Delete the current table
+RSHint_MIDataExport=Export all tables data to file
+RSHint_MIExportSelected=Export the selected tables data to file
+RSHint_MIDataImport=Import data to the database tables from file
+RSHint_MIFullDataImport=Delete and re-import data to the database tables from file
+
+RSHint_RefreshSchema=Refresh schema
+RSHint_MICompare=Compare table model & database table
+RSHint_MICompareAll=Compare all table models & database tables
+RSHint_MIUpgradeDB=Upgrade current structure to the database
+RSHint_MIDBTransfer=Implementation of the database migration
+RSHint_MIBuildDBSetup=Generate database deployment files
+RSHint_MIDBSetupTool=Call database setup tool
+RSHint_MISQLEditor=SQL Editor
+RSHint_MIRegister=Register
+RSHint_MISendEMail=Send E-mail
+RSHint_MIAbout=About
+
+RSColumnCaption_TableIndex_Name=Name
+RSColumnCaption_TableIndex_PK=PK
+RSColumnCaption_TableIndex_Unique=UNIQUE
+RSColumnCaption_TableIndex_clustered=CLUSTERED
+RSColumnCaption_TableIndex_type=Type
+RSColumnCaption_TableIndex_autoupdate=Auto Update
+RSColumnCaption_TableIndex_columnname=Column Name
+RSColumnCaption_TableIndex_collation=Collation
+RSColumnCaption_TableIndex_integrated=INTEGRATED
+RSColumnCaption_TableConstraint_PKTableName=Parent Table
+RSColumnCaption_TableConstraint_PKColumnName=Parent Table Column
+RSColumnCaption_TableConstraint_FKTableName=Child Table
+RSColumnCaption_TableConstraint_FKColumnName=Child Table Column
+RSColumnCaption_TableConstraint_UpdateRule=Cascade Update
+RSColumnCaption_TableConstraint_DeleteRule=Cascade Delete
+RSColumnCaption_TableConstraint_PKName=Parent Key
+RSColumnCaption_TableConstraint_FKName=Name
+RSSorting_Asc=Asc
+RSSorting_Desc=Desc
+RSColumnCaption_Trigger_IsAfter=After
+RSColumnCaption_Trigger_IsUpdate=Update
+RSColumnCaption_Trigger_IsDelete=Delete
+RSColumnCaption_Trigger_IsInsert=Insert
+RSColumnCaption_Trigger_IsInsteadOf=Instead Of
+RSImportTriggers=Import Triggers
+RSImportIndexes=Import Indexes
+RSImportForeignKeys=Import Foreign Keys
+RSBuildingTriggers=Updating Triggers...
+
+RSExportGridToFile=Export To File
+RSShowColumnFilter=Column Filter
+RSMIShowNavigator=Data Navigator
+RSOnlyCreateDB=Create blank DB
+RSImportData=Import Data
+RSColumnCaption_DeleteSign=Deleted
+
+RSSQLFilter=SQL Files (*.SQL)|*.SQL
+RSMIDeleteSelectedTables=Delete Selected
+RSHint_MIDeleteSelectedTables=Delete selected table models
+RSERFilter=BDB Diagram Files (*.BDF)|*.BDF
+RSEmptyName=The name is empty!
+RSRepeatName=The name is repeated!
+
+RSHint_ERCreateObject=Create a new table model
+RSHint_ERCreateConnection=Create a new connection
+RSHint_ERCreateTextBox=Create a new text box
+RSHint_ERZoomIn=Zoom In
+RSHint_ERZoomOut=Zoom Out
+RSHint_ERFit=Fit to page
+RSHint_ERActualSize=Actual Size(100%)
+RSHint_ERObjectFont=Text Font
+RSHint_ERSave=Save to file
+RSHint_EROpen=Open
+RSHint_ERSync=Synchronize all from the schema
+RSPreview=Preview
+RSHint_MIFind=Search Objects
+RSOutputResult=Result
+RSOutputMessage=Message
+RSFindText=Find text
+RSMatchCase=Case sensitive
+RSWholeWord=Whole words
+RSFindObjectType=Find objects
+RSAny=Any
+RSOwner=Owner
+
+RSTable=Table
+RSColumn=Column
+RSIndex=Index
+RSRelation=Relation
+RSView=View
+RSDiagram=Diagram
+RSProcedure=Procedure
+RSFunction=Function
+RSTrigger=Trigger
+RSColumns=Columns
+RSTables=Tables
+RSIndexes=Indexes
+RSRelations=Relations
+RSViews=Views
+RSDiagrams=Diagrams
+RSProcedures=Procedures
+RSFunctions=Functions
+RSTriggers=Triggers
+
+RSProperties=Properties
+RSBringToFront=Bring To Front
+RSSendToBack=Send To Back
+RSCode=Code
+RSScale=Scale
+RSLocateObject=Locate Object
+RSHint_LocateObject=Locate Table Model
+RSRefreshSchema=Refresh Schema
+RSPrint=Print
+RSHint_ERNewDiagram=Create a new diagram
+RSHint_DeleteDiagram=Delete the diagram
+RSDiagramName=Diagram Name
+RSNewDiagram=New Diagram
+RSDeleteDiagram=Delete Diagram
+RSRenameDiagram=Rename Diagram
+RSWidth=Width
+RSHeight=Height
+RSHorizontal=Horizontal
+RSVertical=Vertical
+RSNoChange=No change
+RSAlignLeft=Left sides
+RSAlignRight=Right sides
+RSAlignBottom=Bottoms
+RSAlignTop=Tops
+RSShrink=Shrink to smallest
+RSGrow=Grow to largest
+RSPosition=Position
+RSAlign=Align
+RSNewQuery=New Query
+RSQueryWindow=Query Window
+RSExecuteDirectly=Execute(directly)
+RSNewQueryWindow=New
+RSCloseQueryWindow=Close
+RSCommentLine=Comment Line
+RSCommentBlock=Comment Block
+RSUsingWindowSecurity=Windows authentication
+
+RSConnected=Connected
+RSDisConnected=Disconnected
+RSOnlineDocumentation=Online Documentation
+RSMISaveAs=Save As
+RSCompletionTitle=Press <ENTER> to accept | <ESC> to cancel
+
+RSUserTables=User Tables
+RSSysTables=System Tables
+RSRecentLinks=Recent Links
+RSConnect=Connect
+RSExport=Export
+RSText=Text
+RSUserViews=User Views
+RSSystemViews=System Views
+RSUserProcedures=User Procedures
+RSSystemProcedures=System Procedures
+RSUserFunctions=User Functions
+RSSystemFunctions=System Functions
+RSLoading=Loading...
+RSConnecting=Connecting...
+RSAfterConnect=Connected.
+RSLoadingObjects=Loading Objects...
+RSRecordsAffected=Records affected
+RSCommandCompleted=The command has completed successfully.
+RSUnSupportOperation=The operation is not supported
+RSErrorParepareDataset=Error executing the SQL script, Confirm to pass off?
+RSFinish=Finish
+RSBack=< Back
+RSNext=Next >
+RSWelCome=Welcome
+RSReportCreationWizard=Report Creation Wizard
+RSSettings=Settings
+RSOrientation=Orientation
+RSPortrait=Portrait
+RSLandscape=Landscape
+RSFitPageWidth=Fit to page width
+RSListMode=List mode
+RSLineCount=Columns count
+RSHasTitle=Show report title
+RSHasPageHeader=Show band header
+RSHasPrintInfo=Show page number
+RSHasGroupHeader=Show group header
+RSHasGroupFooter=Show group footer
+RSHasFooter=Show footer
+RSShowTitleOnPage=Show title on per page
+RSShowPrintInfoOnTop=Show page number on the top
+RSAlignCellHeader=Cells right aligned
+RSReportData=Data
+RSReportPage=Page
+RSReportSetting=Report setting
+RSDataHeaderColor=Header color
+RSFontName=Font name
+RSFontSize=Font size
+RSTitleFontSize=Title font size
+
+RSReportWizardWelcome=Welcome to the Report Creation Wizard.
+RSReportWizardName=Provider a name for your report:
+RSReportWizardTitle=Report title:
+RSDesignAfterGenerate=Design report after generate
+RSReadyReport=The report is ready to generated.
+RSPreviewReportNow=You can now preview the report:
+RSGenerateReportOptions=You can choose the options before you click Finish:
+RSSaveOptionsAsDefaults=Save options as defaults
+RSAskForCloseWindow=Confirm to close the window?
+RSMIReport=Report
+RSMIFontName=Font Name
+RSMIFontColor=Font Color
+RSDisConnect=DisConnect
+RSAnalyze=Syntax Check
+RSExecute=Execute
+RSParseExecute=Parse And Execute
+
+RSObjectExplorer=Object Explorer
+RSTemplates=Templates
+RSAddCatalog=Add Catalog
+RSAddTemplate=Add Template
+RSOpenTemplate=Open Template
+RSOpenNewTemplate=Open Template In New Window
+RSEditTemplate=Edit Template
+RSDeleteCatalog=Delete Catalog
+RSDeleteTemplate=Delete Template
+RSRecentFiles=Recent Files
+RSGeneralOptions=General Options
+RSFindObjects=Find Objects
+RSListTables=Tables
+RSListFields=Fields
+RSListKeywords=Keywords
+RSListProcedures=Procedures
+RSListOperators=Operators
+RSListSnippets=Snippets
+RSListViews=Views
+RSListDatabases=Databases
+RSListOptions=Auto-Completion Options:
+RSStatus=Status
+RSReportWizard=Report Wizard
+RSGenerateReport=Generate Report
+RSPreviewReport=Preview
+RSPrintReport=Print
+
+RSIndent=Indent
+RSUnindent=Unindent
+RSEditorOptions=Editor Options
+RSExtractDatabase=Extract Database
+RSReportDesigner=Report Designer
+RSExportToXLS=XLS File
+RSExportToRTF=RTF File
+RSExportToHTML=HTML File
+RSExportToXML=XML File
+RSExportToTXT=TXT File
+RSExportToPDF=PDF File
+RSObjectOpen=Open
+RSObjectEdit=Edit
+RSObjectRefresh=Refresh
+RSObjectFont=Font
+RSObjectCreateScript=Create
+RSObjectDropScript=Drop
+RSObjectSelectScript=Select
+RSObjectScript=Script
+RSObjectInsertScript=Insert
+RSObjectUpdateScript=Update
+RSObjectDeleteScript=Delete
+RSObjectStructure=Structure
+RSObjectCopyText=Copy Text
+RSObjectNewOpen=Open In New Window
+RSObjectNewEdit=Edit In New Window
+RSDeleteAll=Delete All
+RSLocateSearch=Locate
+RSCopySearch=Copy Text
+RSClearSearch=Clear
+RSEditor=Editor
+RSDisplay=Display
+RSRestoreLayout=Restore layout defaults
+RSLoadDBListAfterConnect=Load databases after connected
+RSDisableParsing=Disable parsing
+RSAutoBestFit=Auto best fit
+RSRestoreReport=Restore report defaults
+RSAutomaticFeatures=Automatic features
+RSImmediateActive=Immediate active
+RSQuickMode=Quick mode
+RSShowIndicator=Show indicator
+RSIndicatorWidth=Indicator width:
+RSAsynchronousMode=Asynchronous mode
+RSUpdateAfterInterrupted=Update after interrupted
+RSExtractToFile=Extract to file
+RSRestoreExtractedFiles=Restore extracted files
+RSListShortCut=List shortcut
+RSListTitle=List title
+RSCompleteWithTab=Complete with TAB
+RSCompleteWithEnter=Complete with ENTER
+RSElement=Element:
+RSDefaults=Defaults
+RSTextAttributes=Text attributes
+RSSample=Sample
+RSDelayMSEL=Delay(MSEL):
+RSColor=Color
+RSElementText=Text
+RSElementKeyword=Keyword
+RSElementComment=Comment
+RSElementString=String
+RSElementNumber=Number
+RSElementFunction=Function
+RSElementSymbol=Symbol
+RSAutomaticList=Automatic list
+RSSelectedColor=Selected color
+RSSelectedTextColor=Selected text color
+
+RSHint_MIOpen=Open
+RSHint_MISaveToFile=Save to file
+RSHint_MIUndo=Undo
+RSHint_MICut=Cut
+RSHint_MICopy=Copy
+RSHint_MIPaste=Paste
+RSHint_MIClear=Clear
+RSHint_MISelectAll=Select All
+RSHint_MIFindText=Search Text
+RSHint_MIReplace=Replace
+RSHint_WordWrap=Word Wrap
+RSHint_ShowRowNumber=Show line numbers
+RSHint_Uppercase=Uppercase
+RSHint_Lowercase=Lowercase
+RSHint_MIFontSize=Font Size
+RSHint_MIFont=Font
+RSHint_MIFontName=Font Name
+RSHint_MIFontColor=Font Color
+RSHint_MIClearComments=Clear Comments
+RSHint_CommentLine=Comment Line
+RSHint_CommentBlock=Comment Block
+RSHint_MIExit=Exit
+RSHint_Connect=Connect to database
+RSHint_DisConnect=DisConnect
+RSHint_MINew=New query window
+RSHint_MIDelete=Delete the query window
+RSHint_MIRename=Rename the query window
+RSHint_MISaveAllToFile=Save all to files
+RSHint_Print=Print
+RSHint_Analyze=Syntax Check
+RSHint_Execute=Execute
+RSHint_ParseExecute=Parse and execute
+RSHint_MIHelpFile=Help file
+RSHint_MIBainHomePage=visite the bainsoft website
+RSHint_MISendMail=Send email
+RSHint_OnlineRegister=Order online
+RSHint_Register=Register
+RSHint_GeneralOptions=General options
+RSHint_FindObjects=Find database objects
+RSHint_MIView=View
+RSHint_ListTables=Tables
+RSHint_ListFields=Fields
+RSHint_ListKeywords=Keywords
+RSHint_ListProcedures=Procedures
+RSHint_ListOperators=Operators
+RSHint_ListSnippets=Snippets
+RSHint_ListViews=Views
+RSHint_ListOptions=Auto-Completion options
+RSHint_ListDatabases=Databases
+RSHint_UserName=User name
+RSHint_Database=Database
+RSHint_DBType=DBMS
+RSHint_Status=Connect status
+RSHint_Languages=Languages
+RSHint_Refresh=Refresh
+RSHint_Result=Results
+RSHint_MISaveAs=Save as
+RSHint_AddCatalog=Add Catalog
+RSHint_AddTemplate=Add Template
+RSHint_OpenTemplate=Open Template
+RSHint_OpenNewTemplate=Open template in new window
+RSHint_EditTemplate=Edit Template
+RSHint_DeleteCatalog=Delete the catalog
+RSHint_DeleteTemplate=Delete the template
+RSHint_Export=Export to excel
+RSHint_BreakOff=Break off
+RSHint_ReportWizard=Report Wizard
+RSHint_GenerateReport=Generate Report
+RSHint_PreviewReport=Preview Report
+RSHint_PrintReport=Print Report
+RSHint_ObjectExplorer=Object Explorer
+RSHint_Indent=Indent
+RSHint_Unindent=Unindent
+RSHint_EditorOptions=Editor Options
+RSHint_ExtractDatabase=Extract Database
+RSHint_ReportDesigner=Report Designer
+RSHint_ExportToXLS=Export To XLS
+RSHint_ExportToRTF=Export To RTF
+RSHint_ExportToHTML=Export To HTML
+RSHint_ExportToXML=Export To XML
+RSHint_ExportToTXT=Export To TXT
+RSHint_ExportToPDF=Export To PDF
+RSHint_ObjectOpen=Open
+RSHint_ObjectEdit=Edit
+RSHint_ObjectRefresh=Refresh
+RSHint_ObjectFont=Font
+RSHint_ObjectCreateScript=Create
+RSHint_ObjectDropScript=Drop
+RSHint_ObjectSelectScript=Select
+RSHint_ObjectScript=Script
+RSHint_ObjectInsertScript=Insert
+RSHint_ObjectUpdateScript=Update
+RSHint_ObjectDeleteScript=Delete
+RSHint_ObjectStructure=Structure
+RSHint_ObjectCopyText=Copy text
+RSHint_ObjectNewOpen=Open in a new window
+RSHint_ObjectNewEdit=Edit in a new window
+RSHint_DeleteAll=Delete all
+RSHint_MIShowOutput=Output
+RSHint_MIShowStatusbar=Status bar
+RSHint_Appearance=Appearance
+RSHint_LocateSearch=Locate
+RSHint_CopySearch=Copy text
+RSHint_ClearSearch=Clear results
+RSHint_CustomizeToolbars=Customize Toolbars
+RSCustomizeToolbars=Customize Toolbars
+RSFullTextSearch=Full Text Search
+RSHint_FullTextSearch=Full Text Search
+
+
+
+
+scxGridRecursiveLevels=You cannot create recursive levels
+
+scxGridDeletingConfirmationCaption=Confirm
+scxGridDeletingFocusedConfirmationText=Delete record?
+scxGridDeletingSelectedConfirmationText=Delete all selected records?
+
+scxGridNoDataInfoText=<No data to display>
+
+scxGridFilterRowInfoText=Click here to define a filter
+scxGridNewItemRowInfoText=Click here to add a new row
+
+scxGridFilterIsEmpty=<Filter is Empty>
+
+scxGridCustomizationFormCaption=Customization
+scxGridCustomizationFormColumnsPageCaption=Columns
+scxGridGroupByBoxCaption=Drag a column header here to group by that column
+scxGridFilterApplyButtonCaption=Apply Filter 
+scxGridFilterCustomizeButtonCaption=Customize...
+scxGridColumnsQuickCustomizationHint=Click here to show/hide/move columns
+
+scxGridCustomizationFormBandsPageCaption=Bands
+scxGridBandsQuickCustomizationHint=Click here to show/hide/move bands
+
+scxGridCustomizationFormRowsPageCaption=Rows
+
+scxGridConverterIntermediaryMissing=Missing an intermediary component!Please add a %s component to the form.
+scxGridConverterNotExistGrid=cxGrid does not exist
+scxGridConverterNotExistComponent=Component does not exist
+scxImportErrorCaption=Import error
+
+scxNotExistGridView=Grid view does not exist
+scxNotExistGridLevel=Active grid level does not exist
+scxCantCreateExportOutputFile=Cannot create the export output file
+
+cxSEditRepositoryExtLookupComboBoxItem=ExtLookupComboBox|Represents an ultra-advanced lookup using the QuantumGrid as its drop down control
+
+scxGridYesterday=Yesterday
+scxGridToday=Today
+scxGridTomorrow=Tomorrow
+scxGridLast30Days=Last 30 days
+scxGridLast14Days=Last 14 days
+scxGridLast7Days=Last 7 days
+scxGridNext7Days=Next 7 days
+scxGridNext14Days=Next 14 days
+scxGridNext30Days=Next 30 days
+scxGridLastTwoWeeks=Last two weeks
+scxGridLastWeek=Last week
+scxGridThisWeek=This week
+scxGridNextWeek=Next week
+scxGridNextTwoWeeks=Next two weeks
+scxGridLastMonth=Last month
+scxGridThisMonth=This month
+scxGridNextMonth=Next month
+scxGridLastYear=Last year
+scxGridThisYear=This year
+scxGridNextYear=Next year
+scxGridPast=Past
+scxGridFuture=Future
+
+scxGridMonthFormat=mmmm yyyy
+scxGridYearFormat=yyyy
+
+scxGridChartCategoriesDisplayText=Data
+
+scxGridChartValueHintFormat=%s for %s is %s 
+scxGridChartPercentValueTickMarkLabelFormat=0%
+
+scxGridChartToolBoxDataLevels=Data Levels:
+scxGridChartToolBoxDataLevelSelectValue=select value
+scxGridChartToolBoxCustomizeButtonCaption=Customize Chart
+
+scxGridChartNoneDiagramDisplayText=No diagram
+scxGridChartColumnDiagramDisplayText=Column diagram
+scxGridChartBarDiagramDisplayText=Bar diagram
+scxGridChartLineDiagramDisplayText=Line diagram
+scxGridChartAreaDiagramDisplayText=Area diagram
+scxGridChartPieDiagramDisplayText=Pie diagram
+
+scxGridChartCustomizationFormSeriesPageCaption=Series
+scxGridChartCustomizationFormSortBySeries=Sort by:
+scxGridChartCustomizationFormNoSortedSeries=<none series>
+scxGridChartCustomizationFormDataGroupsPageCaption=Data Groups
+scxGridChartCustomizationFormOptionsPageCaption=Options
+
+scxGridChartLegend=Legend
+scxGridChartLegendKeyBorder=Key Border
+scxGridChartPosition=Position
+scxGridChartPositionDefault=Default
+scxGridChartPositionNone=None
+scxGridChartPositionLeft=Left
+scxGridChartPositionTop=Top
+scxGridChartPositionRight=Right
+scxGridChartPositionBottom=Bottom
+scxGridChartAlignment=Alignment
+scxGridChartAlignmentDefault=Default
+scxGridChartAlignmentStart=Start
+scxGridChartAlignmentCenter=Center
+scxGridChartAlignmentEnd=End
+scxGridChartOrientation=Orientation
+scxGridChartOrientationDefault=Default
+scxGridChartOrientationHorizontal=Horizontal
+scxGridChartOrientationVertical=Vertical
+scxGridChartBorder=Border
+scxGridChartTitle=Title
+scxGridChartToolBox=ToolBox
+scxGridChartDiagramSelector=Diagram Selector
+scxGridChartOther=Other
+scxGridChartValueHints=Value Hints
+
+
+cxSGridNone=None
+cxSGridSortColumnAsc=Sort Ascending
+cxSGridSortColumnDesc=Sort Descending
+cxSGridClearSorting=Clear Sorting
+cxSGridGroupByThisField=Group By This Field
+cxSGridRemoveThisGroupItem=Remove from grouping
+cxSGridGroupByBox=Group By Box
+cxSGridAlignmentSubMenu=Alignment
+cxSGridAlignLeft=Align Left
+cxSGridAlignRight=Align Right
+cxSGridAlignCenter=Align Center
+cxSGridRemoveColumn=Remove This Column
+cxSGridFieldChooser=Field Chooser
+cxSGridBestFit=Best Fit
+cxSGridBestFitAllColumns=Best Fit (all columns)
+cxSGridShowFooter=Footer
+cxSGridShowGroupFooter=Group Footers
+cxSGridNoneMenuItem=None
+cxSGridSumMenuItem=Sum
+cxSGridMinMenuItem=Min
+cxSGridMaxMenuItem=Max
+cxSGridCountMenuItem=Count
+cxSGridAvgMenuItem=Average
+cxSGridSortByGroupValues=Sort by Group Value
+cxSGridSortBySummaryCaption=Sort by Group Summary:
+cxSGridSortBySummary=%s for %s
+
+
+
+
+
+
+cxSFilterBoolOperatorAnd=AND      
+cxSFilterBoolOperatorOr=OR          
+cxSFilterBoolOperatorNotAnd=NOT AND 
+cxSFilterBoolOperatorNotOr=NOT OR   
+
+cxSFilterRootButtonCaption=Filter
+cxSFilterAddCondition=Add &Condition
+cxSFilterAddGroup=Add &Group
+cxSFilterRemoveRow=&Remove Row
+cxSFilterClearAll=Clear &All
+cxSFilterFooterAddCondition=press the button to add a new condition
+
+cxSFilterGroupCaption=applies to the following conditions
+cxSFilterRootGroupCaption=<root>
+cxSFilterControlNullString=<empty>
+
+cxSFilterErrorBuilding=Cannot build filter from source
+
+
+cxSFilterDialogCaption=Custom Filter
+cxSFilterDialogInvalidValue=Invalid value
+cxSFilterDialogUse=Use
+cxSFilterDialogSingleCharacter=as any single character
+cxSFilterDialogCharactersSeries=as any series of characters
+cxSFilterDialogOperationAnd=AND
+cxSFilterDialogOperationOr=OR
+cxSFilterDialogRows=Show rows where:
+
+
+cxSFilterControlDialogCaption=Filter builder
+cxSFilterControlDialogNewFile=untitled.flt
+cxSFilterControlDialogOpenDialogCaption=Open an existing filter
+cxSFilterControlDialogSaveDialogCaption=Save the active filter to file
+cxSFilterControlDialogActionSaveCaption=&Save As...
+cxSFilterControlDialogActionOpenCaption=&Open...
+cxSFilterControlDialogActionApplyCaption=&Apply
+cxSFilterControlDialogActionOkCaption=OK
+cxSFilterControlDialogActionCancelCaption=Cancel
+cxSFilterControlDialogFileExt=flt
+cxSFilterControlDialogFileFilter=Filters (*.flt)|*.flt
+
+
+
+cxSFilterOperatorEqual=equals
+cxSFilterOperatorNotEqual=does not equal
+cxSFilterOperatorLess=is less than
+cxSFilterOperatorLessEqual=is less than or equal to
+cxSFilterOperatorGreater=is greater than
+cxSFilterOperatorGreaterEqual=is greater than or equal to
+cxSFilterOperatorLike=like
+cxSFilterOperatorNotLike=not like
+cxSFilterOperatorBetween=between
+cxSFilterOperatorNotBetween=not between
+cxSFilterOperatorInList=in
+cxSFilterOperatorNotInList=not in
+
+cxSFilterOperatorYesterday=is yesterday
+cxSFilterOperatorToday=is today
+cxSFilterOperatorTomorrow=is tomorrow
+
+cxSFilterOperatorLast7Days=is last 7 days
+cxSFilterOperatorLastWeek=is last week
+cxSFilterOperatorLast14Days=is last 14 days
+cxSFilterOperatorLastTwoWeeks=is last two weeks
+cxSFilterOperatorLast30Days=is last 30 days
+cxSFilterOperatorLastMonth=is last month
+cxSFilterOperatorLastYear=is last year
+cxSFilterOperatorPast=is past
+
+cxSFilterOperatorThisWeek=is this week
+cxSFilterOperatorThisMonth=is this month
+cxSFilterOperatorThisYear=is this year
+
+cxSFilterOperatorNext7Days=is next 7 days
+cxSFilterOperatorNextWeek=is next week
+cxSFilterOperatorNext14Days=is next 14 days
+cxSFilterOperatorNextTwoWeeks=is next two weeks
+cxSFilterOperatorNext30Days=is next 30 days
+cxSFilterOperatorNextMonth=is next month
+cxSFilterOperatorNextYear=is next year
+cxSFilterOperatorFuture=is future
+
+cxSFilterAndCaption=and
+cxSFilterOrCaption=or
+cxSFilterNotCaption=not
+cxSFilterBlankCaption=blank
+
+cxSFilterOperatorIsNull=is blank
+cxSFilterOperatorIsNotNull=is not blank
+cxSFilterOperatorBeginsWith=begins with
+cxSFilterOperatorDoesNotBeginWith=does not begin with
+cxSFilterOperatorEndsWith=ends with
+cxSFilterOperatorDoesNotEndWith=does not end with
+cxSFilterOperatorContains=contains
+cxSFilterOperatorDoesNotContain=does not contain
+cxSFilterBoxAllCaption=(All)
+cxSFilterBoxCustomCaption=(Custom...)
+cxSFilterBoxBlanksCaption=(Blanks)
+cxSFilterBoxNonBlanksCaption=(NonBlanks)
+
+
+
+dxSBAR_LOOKUPDIALOGCAPTION=Select value
+dxSBAR_LOOKUPDIALOGOK=OK
+dxSBAR_LOOKUPDIALOGCANCEL=Cancel
+
+dxSBAR_DIALOGOK=OK
+dxSBAR_DIALOGCANCEL=Cancel
+dxSBAR_COLOR_STR_0=Black
+dxSBAR_COLOR_STR_1=Maroon
+dxSBAR_COLOR_STR_2=Green
+dxSBAR_COLOR_STR_3=Olive
+dxSBAR_COLOR_STR_4=Navy
+dxSBAR_COLOR_STR_5=Purple
+dxSBAR_COLOR_STR_6=Teal
+dxSBAR_COLOR_STR_7=Gray
+dxSBAR_COLOR_STR_8=Silver
+dxSBAR_COLOR_STR_9=Red
+dxSBAR_COLOR_STR_10=Lime
+dxSBAR_COLOR_STR_11=Yellow
+dxSBAR_COLOR_STR_12=Blue
+dxSBAR_COLOR_STR_13=Fuchsia
+dxSBAR_COLOR_STR_14=Aqua
+dxSBAR_COLOR_STR_15=White
+dxSBAR_COLORAUTOTEXT=(automatic)
+dxSBAR_COLORCUSTOMTEXT=(custom)
+dxSBAR_DATETODAY=Today
+dxSBAR_DATECLEAR=Clear
+dxSBAR_DATEDIALOGCAPTION=Select the date
+dxSBAR_TREEVIEWDIALOGCAPTION=Select item
+dxSBAR_IMAGEDIALOGCAPTION=Select item
+dxSBAR_IMAGEINDEX=Image Index
+dxSBAR_IMAGETEXT=Text
+dxSBAR_PLACEFORCONTROL=The place for the 
+dxSBAR_CANTASSIGNCONTROL=You cannot assign the same control to more than one TdxBarControlContainerItem
+dxSBAR_CXEDITVALUEDIALOGCAPTION=Enter value
+
+dxSBAR_WANTTORESETTOOLBAR=Are you sure you want to reset the changes made to the ''%s'' toolbar?
+dxSBAR_WANTTORESETUSAGEDATA=This will delete the record of the commands youve used in this application and restore the default set of visible commands to the menus and toolbars. It will not undo any explicit customizations.   Are you sure you want to proceed?
+dxSBAR_BARMANAGERMORETHANONE =A control should contain only a single TdxBarManager
+dxSBAR_BARMANAGERBADOWNER=TdxBarManager should have TWinControl as its Owner
+dxSBAR_NOBARMANAGERS=There are no TdxBarManagers available
+dxSBAR_WANTTODELETETOOLBAR=Are you sure you want to delete the ''%s'' toolbar?
+dxSBAR_WANTTODELETETOOLBARS=Are you sure you want to delete selected toolbars?
+dxSBAR_WANTTODELETECATEGORY=Are you sure you want to delete the ''%s'' category?
+dxSBAR_WANTTOCLEARCOMMANDS=Are you sure you want to delete all commands in the ''%s'' category?
+dxSBAR_RECURSIVEMENUS=You cannot create recursive menus
+dxSBAR_COMMANDNAMECANNOTBEBLANK=A command name cannot be blank. Please enter a name.
+dxSBAR_TOOLBAREXISTS=A toolbar named ''%s'' already exists. Type another name.
+dxSBAR_RECURSIVEGROUPS=You cannot create recursive groups
+dxSBAR_WANTTODELETECOMPLEXITEM=One of the selected objects is an item which has several links. Are you sure you want to delete these links?
+dxSBAR_CANTPLACEQUICKACCESSGROUPBUTTON=You can place TdxRibbonQuickAccessGroupButton only on TdxRibbonQuickAccessToolbar
+dxSBAR_QUICKACCESSGROUPBUTTONTOOLBARNOTDOCKEDINRIBBON=Quick Access Group Buttons Toolbar is not docked in the Ribbon
+dxSBAR_QUICKACCESSALREADYHASGROUPBUTTON=The Quick Access Toolbar already contains GroupButton with the same toolbar
+dxSBAR_CANTPLACESEPARATOR=A separator item cannot be placed on the specified toolbar
+
+dxSBAR_CANTMERGEBARMANAGER=You cannot merge with the specified bar manager
+dxSBAR_CANTMERGETOOLBAR=You cannot merge with the specified toolbar
+dxSBAR_CANTMERGEWITHMERGEDTOOLBAR=You cannot merge a toolbar with a toolbar that is already merged
+dxSBAR_CANTUNMERGETOOLBAR=You cannot unmerge the specified toolbar
+dxSBAR_ONEOFTOOLBARSALREADYMERGED=One of the toolbars of the specified bar manager is already merged
+dxSBAR_ONEOFTOOLBARSHASMERGEDTOOLBARS=One of the toolbars of the specified bar manager has merged toolbars
+dxSBAR_TOOLBARHASMERGEDTOOLBARS=The ''%s'' toolbar has merged toolbars
+dxSBAR_TOOLBARNOTMERGED=The ''%s'' toolbar is not merged
+dxSBAR_TOOLBARSALREADYMERGED=The ''%s'' toolbar is already merged with the ''%s'' toolbar
+dxSBAR_TOOLBARSARENOTMERGED=The ''%s'' toolbar is not merged with the ''%s'' toolbar
+
+dxSBAR_DEFAULTCATEGORYNAME=Default
+dxSBAR_NEWITEMCAPTION=New Item
+dxSBAR_NEWSEPARATORCAPTION=New Separator
+dxSBAR_NEWBUTTONCAPTION=New Button
+dxSBAR_NEWSUBITEMCAPTION=New SubItem
+
+dxSBAR_CP_ADDSUBITEM=Add &SubItem
+dxSBAR_CP_ADDBUTTON=Add &Button
+dxSBAR_CP_ADDSEPARATOR=Add &Separator
+dxSBAR_CP_ADDDXITEM=Add &Item
+dxSBAR_CP_ADDCXITEM=Add &cxEditItem
+dxSBAR_CP_ADDGROUPBUTTON=Add Gro&upButton
+dxSBAR_CP_DELETEITEM=Delete Item
+dxSBAR_CP_DELETELINK=Delete Link
+
+dxSBAR_CP_RESET=&Reset
+dxSBAR_CP_DELETE=&Delete
+dxSBAR_CP_NAME=&Name:
+dxSBAR_CP_CAPTION=&Caption: 
+dxSBAR_CP_BUTTONPAINTSTYLEMENU=Button Paint &Style
+dxSBAR_CP_DEFAULTSTYLE=Defa&ult style
+dxSBAR_CP_TEXTONLYALWAYS=&Text Only (Always)
+dxSBAR_CP_TEXTONLYINMENUS=Text &Only (in Menus)
+dxSBAR_CP_IMAGEANDTEXT=Image &and Text
+dxSBAR_CP_BEGINAGROUP=Begin a &Group
+dxSBAR_CP_VISIBLE=&Visible
+dxSBAR_CP_MOSTRECENTLYUSED=&Most recently used
+
+dxSBAR_CP_POSITIONMENU=&Position
+dxSBAR_CP_VIEWLEVELSMENU=View&Levels
+dxSBAR_CP_ALLVIEWLEVELS=All
+dxSBAR_CP_SINGLEVIEWLEVELITEMSUFFIX= ONLY
+dxSBAR_CP_BUTTONGROUPMENU=ButtonG&roup
+dxSBAR_CP_BUTTONGROUP=Group
+dxSBAR_CP_BUTTONUNGROUP=Ungroup
+
+dxSBAR_ADDEX=Add...
+dxSBAR_RENAMEEX=Rename...
+dxSBAR_DELETE=Delete
+dxSBAR_CLEAR=Clear
+dxSBAR_VISIBLE=Visible
+dxSBAR_OK=OK
+dxSBAR_CANCEL=Cancel
+dxSBAR_SUBMENUEDITOR=SubMenu Editor...
+dxSBAR_SUBMENUEDITORCAPTION=ExpressBars SubMenu Editor
+dxSBAR_INSERTEX=Insert...
+
+dxSBAR_MOVEUP=Move Up
+dxSBAR_MOVEDOWN=Move Down
+dxSBAR_POPUPMENUEDITOR=PopupMenu Editor...
+dxSBAR_TABSHEET1= Toolbars 
+dxSBAR_TABSHEET2= Commands 
+dxSBAR_TABSHEET3= Options 
+dxSBAR_TOOLBARS=Toolb&ars:
+dxSBAR_TNEW=&New...
+dxSBAR_TRENAME=R&ename...
+dxSBAR_TDELETE=&Delete
+dxSBAR_TRESET=&Reset...
+dxSBAR_CLOSE=Close
+dxSBAR_CAPTION=Customize
+dxSBAR_CATEGORIES=Cate&gories:
+dxSBAR_COMMANDS=Comman&ds:
+dxSBAR_DESCRIPTION=Description  
+
+dxSBAR_MDIMINIMIZE=Minimize Window
+dxSBAR_MDIRESTORE=Restore Window
+dxSBAR_MDICLOSE=Close Window
+dxSBAR_CUSTOMIZE=&Customize...
+dxSBAR_ADDREMOVEBUTTONS=&Add or Remove Buttons
+dxSBAR_MOREBUTTONS=More Buttons
+dxSBAR_RESETTOOLBAR=&Reset Toolbar
+dxSBAR_EXPAND=Expand (Ctrl-Down)
+dxSBAR_DRAGTOMAKEMENUFLOAT=Drag to make this menu float
+dxSBAR_MORECOMMANDS=&More Commands...
+dxSBAR_SHOWBELOWRIBBON=&Show Quick Access Toolbar Below the Ribbon
+dxSBAR_SHOWABOVERIBBON=&Show Quick Access Toolbar Above the Ribbon
+dxSBAR_MINIMIZERIBBON=Mi&nimize the Ribbon
+dxSBAR_ADDTOQAT=&Add to Quick Access Toolbar
+dxSBAR_REMOVEFROMQAT=&Remove from Quick Access Toolbar
+dxSBAR_CUSTOMIZEQAT=Customize Quick Access Toolbar
+
+dxSBAR_TOOLBARNEWNAME =Custom 
+dxSBAR_CATEGORYADD =Add Category
+dxSBAR_CATEGORYINSERT =Insert Category
+dxSBAR_CATEGORYRENAME =Rename Category
+dxSBAR_TOOLBARADD =Add Toolbar
+dxSBAR_TOOLBARRENAME =Rename Toolbar
+dxSBAR_CATEGORYNAME =&Category name:
+dxSBAR_TOOLBARNAME =&Toolbar name:
+dxSBAR_CUSTOMIZINGFORM=Customization Form...
+
+dxSBAR_MODIFY=... modify
+dxSBAR_PERSMENUSANDTOOLBARS=Personalized Menus and Toolbars  
+dxSBAR_MENUSSHOWRECENTITEMS=Me&nus show recently used commands first
+dxSBAR_SHOWFULLMENUSAFTERDELAY=Show f&ull menus after a short delay
+dxSBAR_RESETUSAGEDATA=&Reset my usage data
+
+dxSBAR_OTHEROPTIONS=Other  
+dxSBAR_LARGEICONS=&Large icons
+dxSBAR_HINTOPT1=Show Tool&Tips on toolbars
+dxSBAR_HINTOPT2=Show s&hortcut keys in ToolTips
+dxSBAR_MENUANIMATIONS=&Menu animations:
+dxSBAR_MENUANIM1=(None)
+dxSBAR_MENUANIM2=Random
+dxSBAR_MENUANIM3=Unfold
+dxSBAR_MENUANIM4=Slide
+dxSBAR_MENUANIM5=Fade
+
+dxSBAR_CANTFINDBARMANAGERFORSTATUSBAR=A bar manager cannot be found for the status bar
+
+dxSBAR_BUTTONDEFAULTACTIONDESCRIPTION=Press
+
+SBlob=(Blob)
+SNull=(Null)
+
+
+dxSBAR_GDIPLUSNEEDED=%s requires the Microsoft GDI+ library to be installed
+dxSBAR_RIBBONMORETHANONE =There should be only one %s instance on the form
+dxSBAR_RIBBONBADOWNER=%s should have TCustomForm as its Owner
+dxSBAR_RIBBONBADPARENT=%s should have TCustomForm as its Parent
+dxSBAR_RIBBONADDTAB=Add Tab
+dxSBAR_RIBBONDELETETAB=Delete Tab
+dxSBAR_RIBBONADDEMPTYGROUP=Add Empty Group
+dxSBAR_RIBBONADDGROUPWITHTOOLBAR=Add Group With Toolbar
+dxSBAR_RIBBONDELETEGROUP=Delete Group
+
+dxSBAR_ACCESSIBILITY_RIBBONNAME=Ribbon
+dxSBAR_ACCESSIBILITY_RIBBONTABCOLLECTIONNAME=Ribbon Tabs
+
+
+
+cxSEditButtonCancel=Cancel
+cxSEditButtonOK=OK
+cxSEditDateConvertError=Could not convert to date
+cxSEditInvalidRepositoryItem=The repository item is not acceptable
+cxSEditNumericValueConvertError=Could not convert to numeric value
+cxSEditPopupCircularReferencingError=Circular referencing is not allowed
+cxSEditPostError=An error occured during posting edit value
+cxSEditTimeConvertError=Could not convert to time
+cxSEditValidateErrorText=Invalid input value. Use escape key to abandon changes
+cxSEditValueOutOfBounds=Value out of bounds
+
+
+cxSEditCheckBoxChecked=True
+cxSEditCheckBoxGrayed=
+cxSEditCheckBoxUnchecked=False
+cxSRadioGroupDefaultCaption=
+
+cxSTextTrue=True
+cxSTextFalse=False
+
+
+cxSBlobButtonOK=&OK
+cxSBlobButtonCancel=&Cancel
+cxSBlobButtonClose=&Close
+cxSBlobMemo=(MEMO)
+cxSBlobMemoEmpty=(memo)
+cxSBlobPicture=(PICTURE)
+cxSBlobPictureEmpty=(picture)
+
+
+cxSMenuItemCaptionCut=Cu&t
+cxSMenuItemCaptionCopy=&Copy
+cxSMenuItemCaptionPaste=&Paste
+cxSMenuItemCaptionDelete=&Delete
+cxSMenuItemCaptionLoad=&Load...
+cxSMenuItemCaptionSave=Save &As...
+
+
+cxSDatePopupClear=Clear
+cxSDatePopupNow=Now
+cxSDatePopupOK=OK
+cxSDatePopupToday=Today
+cxSDateError=Invalid Date
+
+cxSDateToday=today
+cxSDateYesterday=yesterday
+cxSDateTomorrow=tomorrow
+cxSDateSunday=Sunday
+cxSDateMonday=Monday
+cxSDateTuesday=Tuesday
+cxSDateWednesday=Wednesday
+cxSDateThursday=Thursday
+cxSDateFriday=Friday
+cxSDateSaturday=Saturday
+cxSDateFirst=first
+cxSDateSecond=second
+cxSDateThird=third
+cxSDateFourth=fourth
+cxSDateFifth=fifth
+cxSDateSixth=sixth
+cxSDateSeventh=seventh
+cxSDateBOM=bom
+cxSDateEOM=eom
+cxSDateNow=now
+
+
+scxSCalcError=Error
+
+
+scxSHyperLinkPrefix=http://
+scxSHyperLinkDoubleSlash=//
+
+
+cxNavigatorHint_First=First record
+cxNavigatorHint_Prior=Prior record
+cxNavigatorHint_PriorPage=Prior page
+cxNavigatorHint_Next=Next record
+cxNavigatorHint_NextPage=Next page
+cxNavigatorHint_Last=Last record
+cxNavigatorHint_Insert=Insert record
+cxNavigatorHint_Append=Append record
+cxNavigatorHint_Delete=Delete record
+cxNavigatorHint_Edit=Edit record
+cxNavigatorHint_Post=Post edit
+cxNavigatorHint_Cancel=Cancel edit
+cxNavigatorHint_Refresh=Refresh data
+cxNavigatorHint_SaveBookmark=Save Bookmark
+cxNavigatorHint_GotoBookmark=Goto Bookmark
+cxNavigatorHint_Filter=Filter data
+cxNavigator_DeleteRecordQuestion=Delete record?
+
+cxSSpinEditInvalidNumericValue=Invalid numeric value
+
+cxSEditRichEditUndoCaption=&Undo
+cxSEditRichEditRedoCaption=&Redo
+cxSEditRichEditCutCaption=Cu&t
+cxSEditRichEditCopyCaption=&Copy
+cxSEditRichEditPasteCaption=&Paste
+cxSEditRichEditDeleteCaption=&Delete
+cxSEditRichEditSelectAllCaption=Select &All
+
+

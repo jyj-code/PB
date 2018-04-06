@@ -1,0 +1,11 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "text.pbt";
+ 1 "07\\APP.PBT";
+ 2 "08\\APP.PBT";
+ 3 "09\\APP.PBT";
+@end;
+DefaultTarget "text.pbt";
+DefaultRemoteTarget "text.pbt";

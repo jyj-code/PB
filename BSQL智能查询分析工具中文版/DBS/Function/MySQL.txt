@@ -1,0 +1,5 @@
+CREATE FUNCTION %s ( 
+  <argument name> <argument datatype>  
+) 
+RETURNS <return datatype> 
+RETURN <function body>

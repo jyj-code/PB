@@ -1,0 +1,2 @@
+[Default]
+S*F=SELECT * FROM 

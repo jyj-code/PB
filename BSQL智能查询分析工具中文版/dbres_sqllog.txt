@@ -1,0 +1,25 @@
+2008-12-04 16:30:05
+出错信息：
+INSERT INTO 语句的语法错误。
+错误来源：
+INSERT INTO employees (name,number) VALUES ('1','2')
+2008-12-04 16:27:24
+出错信息：
+INSERT INTO 语句的语法错误。
+错误来源：
+INSERT INTO employees (name,number) VALUE ('1','2')
+2008-12-04 16:22:59
+出错信息：
+INSERT INTO 语句的语法错误。
+错误来源：
+INSERT INTO employees (name,number) VALUES ('黄小姐','22222')
+2008-12-04 16:22:22
+出错信息：
+INSERT INTO 语句的语法错误。
+错误来源：
+INSERT INTO employees (name,number) VALUES ('黄小姐','22222')
+2008-12-04 16:21:43
+出错信息：
+INSERT INTO 语句的语法错误。
+错误来源：
+INSERT INTO employees (name,number) VALUES ('黄小姐','22222')

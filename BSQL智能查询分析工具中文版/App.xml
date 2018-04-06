@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Application>
+  <BSQL Name="BSQL" DisplayName="BSQL" Version="1.3" SetVer="1.2" License="UnRegistered" Reserved="" OnlineRegister="" Mail="support@bainsoft.com" Home="http://www.bainsoft.com"/>
+  <language Name="Chinese-GB" DisplayName="中文简体" Encoding="GB2312"/>
+</Application>

@@ -1,0 +1,2 @@
+CREATE VIEW %s AS 
+ <view body>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.0 U (http://www.xmlspy.com) by Rajesh Chawla (XML Query WG) -->
+<!--Schema for JSP Tags Generator.-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="create_tld">
+		<xs:annotation>
+			<xs:documentation>Represents a request to create a TLD file that consists of one or more custom JSP tags.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="service"/>
+			</xs:sequence>
+			<xs:attribute name="wsdl_file" type="xs:string" use="required"/>
+			<xs:attribute name="jar_location" type="xs:string" use="required"/>
+			<xs:attribute name="tld_location" type="xs:string" use="required"/>
+			<xs:attribute name="jdk" type="xs:string" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="service">
+		<xs:annotation>
+			<xs:documentation>0, 1 or more services may exist. If no services exist the default is to process all operations and services represented in the WSDL file.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="operation"/>
+			</xs:sequence>
+			<xs:attribute name="Name" type="xs:string" use="required"/>
+			<xs:attribute name="jar_name" type="xs:string" use="optional"/>
+			<xs:attribute name="tld_name" type="xs:string" use="optional"/>
+			<xs:attribute name="package" type="xs:string" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="operation">
+		<xs:annotation>
+			<xs:documentation>0, 1, or more operations may exist. If no operations exist, the default is to process all operations in the WSDL for the given service.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="variable"/>
+				<xs:element ref="endpoint"/>
+			</xs:choice>
+			<xs:attribute name="name" type="xs:string" use="required"/>
+			<xs:attribute name="userTagName" type="xs:string" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="variable">
+		<xs:annotation>
+			<xs:documentation>0, 1, or more variables may exist. If no variables exist, the default is not to override any of the default variable names for the web service.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:attribute name="name" type="xs:string" use="required"/>
+			<xs:attribute name="userDefinedName" type="xs:string" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="endpoint">
+		<xs:annotation>
+			<xs:documentation>0, 1, or more endpoints that a operation should be sent to.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="name" type="xs:string" use="required"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

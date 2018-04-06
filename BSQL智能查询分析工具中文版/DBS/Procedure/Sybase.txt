@@ -1,0 +1,4 @@
+CREATE PROCEDURE %s 
+ <argument name> <argument datatype>
+AS
+ <procedure body>

@@ -1,0 +1,27 @@
+# This is a sample user.encoding.props file. It is used to make user
+# defined datatypes available to the Sybase Universal Proxy client.
+# In order to define a datatype to the proxy the following information 
+# must be provided as comma separated elements of the soap.user.encodings
+# property:
+# 1) The fully qualified class name.
+# 2) The fully qualified class name of the Serializer.
+# 3) The fully qualified class name of the Deserializer.
+# 4) The URI of the encoding style being used for the type.  
+# 5) The URI of the schema defining the serialization rules for the type
+#
+# If more than one datatype is specified a semi-colon (;) is the required
+# separator between type declarations.
+#
+# Example: The following declares the class com.mycompany.MyType to the proxy.
+#   It instructs the proxy to use the class com.mycompany.MyTypeSerializer to
+#   both serialize and deserialize objects of MyType (which implies that the
+#   MyTypeSerializer implements both the Serializer and Deserializer 
+#   interfaces), and that the encoding style is the SOAP encoding style and
+#   that the class is being serializer according to the SOAP encoding schema.  
+# soap.user.encodings=com.mycompany.MyType,com.mycompany.MyTypeSerializer,com.mycompany.MyTypeSerializer,http\://schemas.xmlsoap.org/soap/encoding/,http\://schemas.xmlsoap.org/soap/encoding/
+#
+# Note: If you have a class that implements the JavaBeans design pattern
+# you may use the com.sybase.esdweb.soap.encoding.BeanSerializer as your
+# serializer/deserializer. See the following example for declaring a class
+# using the BeanSerializer:
+# soap.user.encodings=com.mycompany.MyBeanClass,com.sybase.esdweb.soap.encoding.BeanSerializer,com.sybase.esdweb.soap.encoding.BeanSerializer,http\://schemas.xmlsoap.org/soap/encoding/,http\://schemas.xmlsoap.org/soap/encoding/

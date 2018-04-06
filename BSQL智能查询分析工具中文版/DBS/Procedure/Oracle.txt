@@ -1,0 +1,7 @@
+CREATE OR REPLACE  PROCEDURE %s (
+ <argument name> <in out> <argument datatype> <default value>
+)
+AS
+BEGIN
+  <procedure body>
+END;
